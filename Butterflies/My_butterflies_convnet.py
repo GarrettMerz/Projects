@@ -10,15 +10,16 @@ from tensorflow import keras
 import cv2
 from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from keras.models import Sequential
+import random
 
 #allow GPU memory growth because TF 2.1 and CUDNN aren't getting along right now
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tf.compat.v1.Session(config=config)
 
-with open('fgvc_fg_training.json','r') as anno_train:
+with open('../../KagglesData/Butterflies/fgvc_fg_training.json','r') as anno_train:
     train = json.load(anno_train)
-with open('fgvc_fg_testing.json','r') as anno_test:
+with open('../../KagglesData/Butterflies/fgvc_fg_testing.json','r') as anno_test:
     test = json.load(anno_test)
 
 train.keys()
@@ -32,8 +33,8 @@ train_df_anno = train_df_anno.append(train['annotations'], ignore_index=True)
 train_df['category_id'] = train_df_anno['category_id']
 test_df.head()
 train_df.head()
-foldertrain = 'data-images/training/images/'
-foldertest = 'data-images/testing/images/'
+foldertrain = '../../KagglesData/Butterflies/data-images/training/images/'
+foldertest = '../../KagglesData/Butterflies/data-images/testing/images/'
 
 #the images are all different sizes, so we will need to pad them with zeroes around the border to create a CNN. Pad to 600x600 to preserve orientation of features.
 #takes dataframe and image directory, returns 600x600x3x(SIZE) ndarray of images. This is very slow, so to avoid looping over the dataframe more times than necessary we combine the function
@@ -41,7 +42,7 @@ foldertest = 'data-images/testing/images/'
 
 def getLabelsAndPaddedImages(df, folder, isTrain):
 	#slicesize = len(df.index)
-	slicesize = 100
+	slicesize = 1000
 	cat_labels = []
 	images = []
 	for i in range(slicesize):
@@ -77,10 +78,14 @@ def getLabelsAndPaddedImages(df, folder, isTrain):
 train_labels_tot,train_img_tot = getLabelsAndPaddedImages(train_df, foldertrain, 1)
 test_img = getLabelsAndPaddedImages(test_df, foldertest,0)
 
-train_labels = np.array(train_labels_tot[:int(len(train_labels_tot)/2)])
-validation_labels = np.array(train_labels_tot[int(len(train_labels_tot)/2):])
-train_img = np.array(train_img_tot[:int(len(train_img_tot)/2)])
-validation_img = np.array(train_img_tot[int(len(train_img_tot)/2):])
+c = list(zip(train_labels_tot, train_img_tot))
+random.shuffle(c)
+train_labels_tot_shuf, train_img_tot_shuf = zip(*c)
+
+train_labels = np.array(train_labels_tot_shuf[:int(len(train_labels_tot_shuf)/2)])
+validation_labels = np.array(train_labels_tot_shuf[int(len(train_labels_tot_shuf)/2):])
+train_img = np.array(train_img_tot_shuf[:int(len(train_img_tot_shuf)/2)])
+validation_img = np.array(train_img_tot_shuf[int(len(train_img_tot_shuf)/2):])
 
 print(len(train_img))
 
@@ -111,7 +116,7 @@ model.compile(loss=keras.losses.categorical_crossentropy,  optimizer=keras.optim
 print(model.summary())
 
 epochs = 1
-batch_size = 10
+batch_size = 1
 history = model.fit(train_img,train_labels, batch_size=batch_size,epochs = epochs, validation_data = (validation_img,validation_labels))
 
 print('\n# Generate predictions for test set')
