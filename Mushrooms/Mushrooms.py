@@ -1,36 +1,93 @@
-#A Kaggle project to determine whether a mushroom is edible or poisonous based on its physical features. All variables are categorical.
 
-import pandas as pd
-import numpy as np
+# coding: utf-8
+
+# In[39]:
+
+
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import xgboost
+import sklearn.metrics
 import matplotlib.pyplot as plt
-import xgboost as xgb
-data = pd.read_csv('mushrooms.csv')
-print 'Size of data: {}'.format(data.shape)
-print 'Number of events: {}'.format(data.shape[0])
-print 'Number of columns: {}'.format(data.shape[1])
+from sklearn.model_selection import train_test_split
+df = pd.read_csv("mushrooms.csv")
 
-print '\nList of features in dataset:'
-for col in data.columns:
-    print col
-
-# look at column labels --- notice first one is "class"
+df.head()
 
 
-print 'Number of signal events: {}'.format(len(data[data.class == 'e']))
-print 'Number of background events: {}'.format(len(data[data.class == 'p']))
-print 'Fraction signal: {}'.format(len(data[data.class == 'e'])/(float)(len(data[data.class == 'p']) + len(data[data.class == 'e'])))
+# In[6]:
 
-#data['class'] = data.class.astype('category')
 
-data_train = data[:8000]
-data_test = data[8000:]
+#Do one-hit encoding
+onehit = pd.get_dummies(df)
+onehit.head()
 
-print 'Number of training samples: {}'.format(len(data_train))
-print 'Number of testing samples: {}'.format(len(data_test))
 
-print '\nNumber of signal events in training set: {}'.format(len(data_train[data_train.class == 's']))
-print 'Number of background events in training set: {}'.format(len(data_train[data_train.class == 'b']))
-print 'Fraction signal: {}'.format(len(data_train[data_train.class == 's'])/(float)(len(data_train[data_train.class == 's']) + len(data_train[data_train.class == 'b'])))
+# In[9]:
 
-feature_names = data.columns[1:]
+
+#Get train and test
+train, test = train_test_split(onehit, test_size=0.33, random_state=14)
+train.head()
+
+
+# In[17]:
+
+
+features = train.columns.tolist()
+features.remove('class_e')
+features.remove('class_p')
+print(features)
+
+
+# In[33]:
+
+
+X_train = train[features]
+X_test = test[features]
+Y_train = train['class_e']
+Y_test = test['class_e']
+
+print(X_train.head)
+
+
+# In[36]:
+
+
+xgb = xgboost.XGBClassifier(n_jobs=-1, n_estimators=20).fit(X_train,Y_train)
+
+
+# In[37]:
+
+
+probs = xgb.predict_proba(X_test)
+
+
+# In[44]:
+
+
+preds = probs[:,1]
+print(preds)
+
+
+# In[52]:
+
+
+fpr, tpr, threshold = sklearn.metrics.roc_curve(Y_test, preds)
+roc_auc = sklearn.metrics.auc(fpr, tpr)
+print(roc_auc)
+
+
+# In[51]:
+
+
+plt.title('Receiver Operating Characteristic')
+plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
+plt.legend(loc = 'lower right')
+plt.plot([0, 1], [0, 1],'r--')
+plt.xlim([0, 1])
+plt.ylim([0, 1])
+plt.ylabel('True Positive Rate')
+plt.xlabel('False Positive Rate')
+plt.show()
 

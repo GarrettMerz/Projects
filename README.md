@@ -2,7 +2,7 @@
 
 # Some Kaggle projects to practice various data science skills.
 
-# 'Butterflies' is the Kaggle "Moths and Butterflies" fieldguide challenge:
+# 'ButterflyNet' is my convnet solution to the Kaggle "Moths and Butterflies" fieldguide challenge:
  https://www.kaggle.com/c/fieldguide-challenge-moths-and-butterflies/data
  The goal of the challenge is to identify the butterfly or moth from a number of species based on the images provided.
 
