@@ -225,8 +225,6 @@ ring-number: none=n,one=o,two=t
 
 ring-type: cobwebby=c,evanescent=e,flaring=f,large=l,none=n,pendant=p,sheathing=s,zone=z
 
-@GarrettMerz
-
 population: abundant=a,clustered=c,numerous=n,scattered=s,several=v,solitary=y
 habitat: grasses=g,leaves=l,meadows=m,paths=p,urban=u,waste=w,woods=d
 Data is not split into train/test/validation samples in the csv; this is done so at the classifier stage.
