@@ -61,12 +61,25 @@ Questions I am interested in include:
 -when is it better to run a jam for the full two minutes?
 -which "jammers" are best against which blocker lines?
 
+Eventually, I'd like to use Graph Neural Nets to play with this. Right now, I'm still gathering data!
+
 
 #Voynich
 The Voynich Manuscript is one of the most interesting problems in cryptography. Written sometime in Europe in the 1400s, it is a text written in an unknown script corresponding to no known language. 
 The text is accompanied by a series of illustrations, depicting everything from unidentifiable plants to constellations.
-Zipf's Law, entropy, and frequency analysis studies have shown that the text is not random, and does in fact possess some informational content. Furthermore, analysis of handwriting and vocabulary have shown that the text was written by two scholars, each with a slightly different style (one more verbose than the other).
+Zipf's Law, entropy, and frequency analysis studies have shown that the text is not random, and does in fact possess some informational content. Furthermore, analysis of handwriting and vocabulary have shown that the text was written by two scholars, each with a slightly different style (one more verbose than the other). Additionally, recent handwriting-analysis work has shown that the text was written by at least five different scribes.
 Currently, I am investigating several questions.
 
--Can I use clustering methods to extract the two sets of authorship?
+-Can I use clustering methods to extract the two sets of authorship? What about the different scribes?
 -Can I use topic analysis to choose the words most representative of each section?
+-How do different characters and combinations behave statistically?
+-How accurate is the establshed "EVA" transcription?
+
+#In Codice Ratio
+One of the problems facing analyses of historical documents is the unavailability (and unreliability!) of digital transcriptions. Digital transcription tools often have special difficulty with context-dependent sentence parsing, especially with Latin 'sigla' or scribal abbreviations, which can mean different things based on their locations in words. Sayre's Paradox is rampant in these datasets- in order to be understood, a word must be segmented into characters, but in order for a cursive word to be correctly segmented into characters, it must be understood! This project will attempt to utilize the dataset here:  
+
+http://www.inf.uniroma3.it/db/icr/datasets.html 
+
+from the Vatican Archives as a good training set for exploring handwriting segmentation.
+
+(thought- can I use some kind of adversarial net here, or at least nested nets? train one NN to segment based on segmented-letter similarity to labeled train-set characters, train another based on the words arising from the characters chosen using this segmentation scheme vs. language corpus? is this what ICR does already?)
