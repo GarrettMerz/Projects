@@ -55,14 +55,10 @@ This is my attempt to use data science tools to extract some meaningful quantiti
 In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points.
 Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
 
+This project is an attempt at using a Graph Convolutional Neural Nets (GCNN) autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf
 
-Questions I am interested in include:
--which combinations of players perform the best together?
--when is it better to run a jam for the full two minutes?
--which "jammers" are best against which blocker lines?
 
-Eventually, I'd like to use Graph Neural Nets to play with this. Right now, I'm still gathering data!
-
+SOME PROJECTS I HAVE NOT YET STARTED, BUT THAT WILL GO HERE:
 
 #Voynich
 The Voynich Manuscript is one of the most interesting problems in cryptography. Written sometime in Europe in the 1400s, it is a text written in an unknown script corresponding to no known language. 
@@ -82,4 +78,6 @@ http://www.inf.uniroma3.it/db/icr/datasets.html
 
 from the Vatican Archives as a good training set for exploring handwriting segmentation.
 
-(thought- can I use some kind of adversarial net here, or at least nested nets? train one NN to segment based on segmented-letter similarity to labeled train-set characters, train another based on the words arising from the characters chosen using this segmentation scheme vs. language corpus? is this what ICR does already?)
+#Cribbing Pseudo-autoencoder
+
+The Liber Primus is a text released in 2014 by internet cipherpunk collective Cicada 3301 that has yet to be decrypted (https://uncovering-cicada.fandom.com/wiki/Liber_Primus). Frequency analysis of the text indicates it is likely encoded with some kind of autokey-variant cipher. The text has spacing, which means that, if this spacing is correct, it can be "cribbed"- plaintext words can be compared against the ciphertext in order to determine the algorithm. Since it is likely that the function is nonlinear, this is my attempt to use a reinforcement learning/autoencoder type algorithm to learn the cipher map implicitly.
