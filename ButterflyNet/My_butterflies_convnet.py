@@ -12,7 +12,7 @@ from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from keras.models import Sequential
 import random
 
-#allow GPU memory growth because TF 2.1 and CUDNN aren't getting along right now
+#allow GPU memory growth because TF 2.1 and CUDNN aren't getting along right now!
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tf.compat.v1.Session(config=config)
@@ -36,7 +36,7 @@ train_df.head()
 foldertrain = '../../KagglesData/Butterflies/data-images/training/images/'
 foldertest = '../../KagglesData/Butterflies/data-images/testing/images/'
 
-#the images are all different sizes, so we will need to pad them with zeroes around the border to create a CNN. Pad to 600x600 to preserve orientation of features.
+#the images are all different sizes, so we will need to pad them with zeroes around the border to create a simple CNN. Pad to 600x600 to preserve orientation of features.
 #takes dataframe and image directory, returns 600x600x3x(SIZE) ndarray of images. This is very slow, so to avoid looping over the dataframe more times than necessary we combine the function
 # to get labels and the function to creat padded images into one.
 
@@ -89,7 +89,7 @@ validation_img = np.array(train_img_tot_shuf[int(len(train_img_tot_shuf)/2):])
 
 print(len(train_img))
 
-#Now we build the basic convnet. Use Tensorflow for this on an RTX gpu.
+#Now we build the basic convnet. Use Tensorflow + Keras for this on my RTX gpu.
 
 # Define a sequential model
 input_shape = (600,600,3)
@@ -111,7 +111,7 @@ model.add(Dense(16, activation='relu'))
 model.add(Dropout(0.5))
 # add dense layer
 model.add(Dense(num_classes, activation='softmax'))
-# complile the model and view its architecur
+# complile the model and view its architecture
 model.compile(loss=keras.losses.categorical_crossentropy,  optimizer=keras.optimizers.Adadelta(), metrics=['accuracy'])
 print(model.summary())
 
