@@ -1,6 +1,6 @@
 # Projects
 
-# Some Kaggle projects to practice various data science skills.
+# Some Kaggle projects to practice various ML skills.
 
 #ButterflyNet
 This is my convnet solution to the Kaggle "Moths and Butterflies" fieldguide challenge:
