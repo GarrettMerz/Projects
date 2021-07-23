@@ -13,8 +13,7 @@ https://s3.amazonaws.com/fieldguide-fgvc2019/training.tar
 https://s3.amazonaws.com/fieldguide-fgvc2019/testing.tar
 each of which contains an image of a butterfly or moth that is 600 px in its largest dimension.
 
-Currently, I have produced a simple convolutional network which runs using Tensorflow 2.1 / Cuda 10.1 on my laptop RTX 2060 gpu.
-Eventually, I would like to train a fully-convolutional network to avoid padding the input images, currently, this project serves as more of a hardware test.
+Currently, I have produced a (very slim) ResNet which runs using Keras/ Tensorflow 2.5 / Cuda 11 on my laptop RTX 2060 gpu. Eventually, I'd like to get this running on Google CoLab so I can explore adding more filters.
 
 #Mushrooms
 This the Kaggle "Mushroom Identification" fieldguide challenge:
@@ -51,11 +50,11 @@ Data is not split into train/test/validation samples in the csv; this is done so
 #RollerDerby
 
 When I'm not coding data science projects, I enjoy announcing my friends' roller derby bouts (currently with the Kalamazoo Derby Darlins).
-This is my attempt to use data science tools to extract some meaningful quantities from roller derby statistics. 
-In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points.
-Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
+This is my attempt at performing an end-to-end ML project, including data gathering, by myself, from scratch (no kaggle!).
 
-This project is an attempt at using a Graph Convolutional Neural Nets (GCNN) autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf
+In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points. Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
+
+This project is an attempt my using a Graph Convolutional Neural Nets (GCNN) autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf:
 
 
 SOME PROJECTS I HAVE NOT YET STARTED, BUT THAT WILL GO HERE:
@@ -81,3 +80,4 @@ from the Vatican Archives as a good training set for exploring handwriting segme
 #Cribbing Pseudo-autoencoder
 
 The Liber Primus is a text released in 2014 by internet cipherpunk collective Cicada 3301 that has yet to be decrypted (https://uncovering-cicada.fandom.com/wiki/Liber_Primus). Frequency analysis of the text indicates it is likely encoded with some kind of autokey-variant cipher. The text has spacing, which means that, if this spacing is correct, it can be "cribbed"- plaintext words can be compared against the ciphertext in order to determine the algorithm. Since it is likely that the function is nonlinear, this is my attempt to use a reinforcement learning/autoencoder type algorithm to learn the cipher map implicitly.
+
