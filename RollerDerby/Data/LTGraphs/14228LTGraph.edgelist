@@ -1,0 +1,28 @@
+CrazieNess,,Rosie Rotten,,0.5922922490552457
+CrazieNess,,Hedda Flame,,0.49399934489244623
+CrazieNess,,Oxidizer,,0.9824561403508771
+CrazieNess,,Siren Plague,,0.6748359377287321
+CrazieNess,,Obknocks-us,,0.7993834728007054
+Rosie Rotten,,CrazieNess,,0.6678856231487809
+Rosie Rotten,,Hedda Flame,,-0.13403373998832105
+Rosie Rotten,,Oxidizer,,0.6678856231487809
+Rosie Rotten,,Obknocks-us,,0.8004153215079999
+Hedda Flame,,CrazieNess,,0.4146611436973302
+Hedda Flame,,Rosie Rotten,,-0.10744704044661436
+Hedda Flame,,Oxidizer,,0.5587719298245615
+Hedda Flame,,Siren Plague,,0.6612949040269762
+Hedda Flame,,Obknocks-us,,0.1992066448213699
+Oxidizer,,CrazieNess,,0.9436101733731017
+Oxidizer,,Rosie Rotten,,0.5907918492818064
+Oxidizer,,Hedda Flame,,0.5844360302028239
+Oxidizer,,Siren Plague,,0.6610567040002249
+Oxidizer,,Obknocks-us,,0.7382654270493927
+Siren Plague,,Hedda Flame,,1.200657894736842
+Siren Plague,,CrazieNess,,0.8986610267496297
+Siren Plague,,Oxidizer,,1.200657894736842
+Siren Plague,,Obknocks-us,,0.37462905791349543
+Obknocks-us,,Rosie Rotten,,1.0190867626238787
+Obknocks-us,,CrazieNess,,1.0190867626238787
+Obknocks-us,,Oxidizer,,1.1222222222222222
+Obknocks-us,,Hedda Flame,,0.210906895978536
+Obknocks-us,,Siren Plague,,0.29295313713920734
