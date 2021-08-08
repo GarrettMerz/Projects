@@ -1,0 +1,138 @@
+Cry-Sis,,Necro Nancie,,0.39244306418219443
+Cry-Sis,,Hell-O-Nurse,,0.40821348163720383
+Cry-Sis,,Miss N Out,,0.39244306418219443
+Cry-Sis,,Sniper X,,0.07337268686873201
+Cry-Sis,,aNa Maul E,,-0.08755688755688751
+Cry-Sis,,Miss 'N Out,,-0.08755688755688751
+Cry-Sis,,Cheap Shot,,0.022566931046046346
+Necro Nancie,,Cry-Sis,,0.4861068111455108
+Necro Nancie,,Hell-O-Nurse,,0.5936309060407262
+Necro Nancie,,Miss N Out,,0.4861068111455108
+Necro Nancie,,Sniper X,,-0.11308393959689313
+Hell-O-Nurse,,Cry-Sis,,0.898559781889158
+Hell-O-Nurse,,Necro Nancie,,0.8041666666666667
+Hell-O-Nurse,,Miss N Out,,0.8041666666666667
+Hell-O-Nurse,,aNa Maul E,,0.1049284578696339
+Hell-O-Nurse,,Miss 'N Out,,0.1049284578696339
+Hell-O-Nurse,,Cheap Shot,,0.137443724780867
+Miss N Out,,Cry-Sis,,0.2475579975579975
+Miss N Out,,Necro Nancie,,0.2475579975579975
+Miss N Out,,Hell-O-Nurse,,0.37319304187404523
+Miss N Out,,Sniper X,,-0.0007750791246501076
+Miss N Out,,Clash Wednesday,,-0.03242879453911411
+Miss N Out,,Cheap Shot,,-0.040420985451814176
+Miss N Out,,Mexican Candy,,-0.5197765734760992
+Miss N Out,,Dita VonKaRnage,,-0.0383323674522054
+Miss N Out,,Google,,0.27516975009739497
+Miss N Out,,Hell O Nurse,,0.13671359621375948
+Miss N Out,,Smokin Ices,,0.07467679539946075
+Miss N Out,,Mary Jane McPain,,-0.002193953662272363
+Sniper X,,Necro Nancie,,-0.13157894736842102
+Sniper X,,Cry-Sis,,-0.13157894736842102
+Sniper X,,Miss N Out,,-0.13157894736842102
+aNa Maul E,,Cry-Sis,,0.37321565787071187
+aNa Maul E,,Hell-O-Nurse,,0.120531112899096
+aNa Maul E,,Miss 'N Out,,0.38196040868454606
+aNa Maul E,,Cheap Shot,,0.18814089080638302
+Miss 'N Out,,Cry-Sis,,0.2691708853056373
+Miss 'N Out,,Hell-O-Nurse,,0.06258158910632773
+Miss 'N Out,,aNa Maul E,,0.26666247038965096
+Miss 'N Out,,Cheap Shot,,0.12256968939503372
+Cheap Shot,,Hell-O-Nurse,,-0.004343529122145552
+Cheap Shot,,aNa Maul E,,0.22135349635349574
+Cheap Shot,,Miss 'N Out,,0.22135349635349605
+Cheap Shot,,Cry-Sis,,0.22738659433211164
+Cheap Shot,,Miss N Out,,0.5172919498457194
+Cheap Shot,,Clash Wednesday,,0.346120766437546
+Cheap Shot,,Mexican Candy,,0.5880241007662136
+Cheap Shot,,Dita VonKaRnage,,0.1273463913028616
+Cheap Shot,,Google,,0.18115756158115967
+Cheap Shot,,Hell O Nurse,,0.6159505511052422
+Cheap Shot,,Smokin Ices,,0.41532010501347183
+Cheap Shot,,Mary Jane McPain,,0.2751574951239985
+Cheap Shot,,Honey Gives a Boo ...,,-0.0488133459818541
+Cheap Shot,,Boyd,,-0.03357172755908906
+Clash Wednesday,,Miss N Out,,0.18238889802290056
+Clash Wednesday,,Cheap Shot,,0.07637953704287459
+Clash Wednesday,,Mexican Candy,,0.27085938351288286
+Clash Wednesday,,Dita VonKaRnage,,0.2777180315756253
+Clash Wednesday,,Google,,0.8898480909346935
+Clash Wednesday,,Hell O Nurse,,0.22118393594381738
+Clash Wednesday,,Mary Jane McPain,,0.2727572533122867
+Clash Wednesday,,Smokin Ices,,0.5218158696456909
+Clash Wednesday,,1 In The Chamber,,-0.035129241186776454
+Clash Wednesday,,Boyd,,-0.16762214111294094
+Clash Wednesday,,Honey Gives a Boo ...,,-0.2257664741801402
+Mexican Candy,,Miss N Out,,-1.556817587905008
+Mexican Candy,,Clash Wednesday,,-1.1801377802259418
+Mexican Candy,,Cheap Shot,,-1.0086623741537508
+Mexican Candy,,Dita VonKaRnage,,-0.7733646023038365
+Mexican Candy,,Google,,-0.6567511498346271
+Mexican Candy,,Hell O Nurse,,-0.14743519854786968
+Mexican Candy,,Smokin Ices,,-0.04448729203823738
+Mexican Candy,,Mary Jane McPain,,-0.25102125688879756
+Mexican Candy,,1 In The Chamber,,-0.13315943200179642
+Mexican Candy,,Boyd,,0.11626624146785011
+Mexican Candy,,Honey Gives a Boo ...,,0.036804797207822884
+Dita VonKaRnage,,Clash Wednesday,,1.0375900330898211
+Dita VonKaRnage,,Mexican Candy,,-0.08620425538034597
+Dita VonKaRnage,,Google,,1.1589944197815791
+Dita VonKaRnage,,Miss N Out,,0.8572355943847872
+Dita VonKaRnage,,Cheap Shot,,0.24432427843109591
+Dita VonKaRnage,,Hell O Nurse,,0.17051997277034164
+Dita VonKaRnage,,Mary Jane McPain,,0.3502965543589365
+Dita VonKaRnage,,Smokin Ices,,0.2605401788207231
+Dita VonKaRnage,,1 In The Chamber,,-0.03013769966901993
+Google,,Clash Wednesday,,0.4605353961697373
+Google,,Mexican Candy,,-0.011195113622544037
+Google,,Dita VonKaRnage,,0.29589432046813435
+Google,,Miss N Out,,0.3306504144074063
+Google,,Cheap Shot,,-0.11639323564804183
+Google,,Mary Jane McPain,,0.06507520778366754
+Google,,Smokin Ices,,0.18277327878833766
+Google,,Hell O Nurse,,-0.44458198562224477
+Google,,1 In The Chamber,,-0.21058955691688697
+Hell O Nurse,,Dita VonKaRnage,,0.22758024460974838
+Hell O Nurse,,Miss N Out,,0.6575723738577088
+Hell O Nurse,,Clash Wednesday,,0.7788005942828582
+Hell O Nurse,,Mexican Candy,,0.6564486756187708
+Hell O Nurse,,Smokin Ices,,0.1781540499048482
+Hell O Nurse,,Cheap Shot,,1.2616164612645195
+Hell O Nurse,,Mary Jane McPain,,0.09685324848040798
+Hell O Nurse,,Google,,-0.3156662016464883
+Hell O Nurse,,Honey Gives a Boo ...,,-0.37851430621897164
+Hell O Nurse,,Boyd,,-0.23613647538524363
+Mary Jane McPain,,Dita VonKaRnage,,0.4416203579786796
+Mary Jane McPain,,Google,,0.0031246321260994664
+Mary Jane McPain,,Clash Wednesday,,0.42286058368399454
+Mary Jane McPain,,Mexican Candy,,-0.34360955643056385
+Mary Jane McPain,,Smokin Ices,,-0.27004178204214774
+Mary Jane McPain,,Cheap Shot,,0.015038979918575612
+Mary Jane McPain,,Hell O Nurse,,-0.17125808138898116
+Mary Jane McPain,,Miss N Out,,-0.16770186244326168
+Mary Jane McPain,,Boyd,,-0.10661764705882337
+Mary Jane McPain,,Honey Gives a Boo ...,,-0.10661764705882337
+Smokin Ices,,Mexican Candy,,1.11521014810613
+Smokin Ices,,Hell O Nurse,,-0.1549741090772321
+Smokin Ices,,Cheap Shot,,0.9952276913143077
+Smokin Ices,,Google,,0.28996824993169645
+Smokin Ices,,Mary Jane McPain,,0.5826374632517008
+Smokin Ices,,Clash Wednesday,,0.41697908672243356
+Smokin Ices,,Dita VonKaRnage,,0.21538422462953485
+Smokin Ices,,Miss N Out,,0.2496619055579148
+1 In The Chamber,,Mexican Candy,,0.011080477480185752
+1 In The Chamber,,Google,,-0.1607142857142858
+1 In The Chamber,,Clash Wednesday,,-0.1607142857142858
+1 In The Chamber,,Dita VonKaRnage,,-0.17498697311477784
+Boyd,,Mary Jane McPain,,-0.7067150148529775
+Boyd,,Honey Gives a Boo ...,,-1.3472966889695257
+Boyd,,Mexican Candy,,0.05267237201025175
+Boyd,,Cheap Shot,,-0.8227928668099356
+Boyd,,Hell O Nurse,,-0.9860169156237921
+Boyd,,Clash Wednesday,,-1.028776390020508
+Honey Gives a Boo ...,,Boyd,,-0.654995211734797
+Honey Gives a Boo ...,,Mary Jane McPain,,-0.2954341626807035
+Honey Gives a Boo ...,,Mexican Candy,,-0.15091106033236706
+Honey Gives a Boo ...,,Cheap Shot,,-0.6473508970265036
+Honey Gives a Boo ...,,Hell O Nurse,,-0.8623239467562105
+Honey Gives a Boo ...,,Clash Wednesday,,-0.5688172043010714

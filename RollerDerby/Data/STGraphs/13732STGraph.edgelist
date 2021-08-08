@@ -1,0 +1,42 @@
+Thunder Cakes,,Shell Shock,,0.0
+Thunder Cakes,,Rude N Reckless,,-0.8987854251012145
+Thunder Cakes,,Double O Nuts,,0.0
+Thunder Cakes,,DeeDee Hisser,,-0.8238866396761133
+Thunder Cakes,,Boppin,,-0.8238866396761133
+Shell Shock,,Thunder Cakes,,0.0
+Shell Shock,,Rude N Reckless,,0.0
+Shell Shock,,Double O Nuts,,0.0
+Rude N Reckless,,Thunder Cakes,,-1.1428571428571428
+Rude N Reckless,,Shell Shock,,0.0
+Rude N Reckless,,Double O Nuts,,0.0
+Rude N Reckless,,DeeDee Hisser,,-1.0476190476190474
+Rude N Reckless,,Boppin,,-1.0476190476190474
+Double O Nuts,,Thunder Cakes,,0.0
+Double O Nuts,,Shell Shock,,0.0
+Double O Nuts,,Rude N Reckless,,0.0
+Double O Nuts,,Miss RIPLee,,-0.6461160949010221
+Double O Nuts,,Slam Bam Mir-I-Am,,-1.3759216930296003
+Double O Nuts,,Krash O,,-1.1068511045722038
+Double O Nuts,,Hot Pursuit,,2.8875103047694566
+Miss RIPLee,,Slam Bam Mir-I-Am,,-3.706987013876751
+Miss RIPLee,,Krash O,,-3.4518568961022122
+Miss RIPLee,,Double O Nuts,,-2.259549203794519
+Miss RIPLee,,Hot Pursuit,,2.639745502389921
+Slam Bam Mir-I-Am,,Miss RIPLee,,-3.9355446368513562
+Slam Bam Mir-I-Am,,Krash O,,-4.473971609765
+Slam Bam Mir-I-Am,,Double O Nuts,,-3.4338024765726103
+Slam Bam Mir-I-Am,,Hot Pursuit,,1.5000994467812383
+Krash O,,Miss RIPLee,,-4.886578435706296
+Krash O,,Slam Bam Mir-I-Am,,-5.509051934980713
+Krash O,,Double O Nuts,,-4.506090630828252
+Krash O,,Hot Pursuit,,1.3517417919573336
+Hot Pursuit,,Krash O,,2.4068160597572383
+Hot Pursuit,,Slam Bam Mir-I-Am,,2.483006535947711
+Hot Pursuit,,Double O Nuts,,4.206816059757237
+Hot Pursuit,,Miss RIPLee,,3.5238095238095246
+DeeDee Hisser,,Rude N Reckless,,-2.8713235294117636
+DeeDee Hisser,,Thunder Cakes,,-2.8713235294117636
+DeeDee Hisser,,Boppin,,-2.8713235294117636
+Boppin,,DeeDee Hisser,,-2.0434782608695654
+Boppin,,Rude N Reckless,,-2.0434782608695654
+Boppin,,Thunder Cakes,,-2.0434782608695654

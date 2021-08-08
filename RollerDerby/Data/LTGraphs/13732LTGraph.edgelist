@@ -1,0 +1,42 @@
+Thunder Cakes,,Shell Shock,,-1.2012348775364294e-29
+Thunder Cakes,,Rude N Reckless,,-0.07489878542510123
+Thunder Cakes,,Double O Nuts,,-9.733707029408425e-26
+Thunder Cakes,,DeeDee Hisser,,-0.07489878542510123
+Thunder Cakes,,Boppin,,-0.07489878542510123
+Shell Shock,,Thunder Cakes,,0.0
+Shell Shock,,Rude N Reckless,,0.0
+Shell Shock,,Double O Nuts,,0.0
+Rude N Reckless,,Thunder Cakes,,-0.09523809523809523
+Rude N Reckless,,Shell Shock,,-1.527438943379655e-29
+Rude N Reckless,,Double O Nuts,,-0.012889074593963113
+Rude N Reckless,,DeeDee Hisser,,-0.09523809523809523
+Rude N Reckless,,Boppin,,-0.09523809523809523
+Double O Nuts,,Thunder Cakes,,-0.01961349107569066
+Double O Nuts,,Shell Shock,,-2.4204970911068215e-06
+Double O Nuts,,Rude N Reckless,,0.004731573523851287
+Double O Nuts,,Miss RIPLee,,-0.05935859189202766
+Double O Nuts,,Slam Bam Mir-I-Am,,-0.11194502112520956
+Double O Nuts,,Krash O,,-0.10272363441887251
+Double O Nuts,,Hot Pursuit,,0.23283545365460184
+Miss RIPLee,,Slam Bam Mir-I-Am,,-0.3088958151495779
+Miss RIPLee,,Krash O,,-0.3021392660732245
+Miss RIPLee,,Double O Nuts,,-0.20460011480896406
+Miss RIPLee,,Hot Pursuit,,0.16965206661711912
+Slam Bam Mir-I-Am,,Miss RIPLee,,-0.34230700111795226
+Slam Bam Mir-I-Am,,Krash O,,-0.38560232832049396
+Slam Bam Mir-I-Am,,Double O Nuts,,-0.30050918074002486
+Slam Bam Mir-I-Am,,Hot Pursuit,,0.14166328713860293
+Krash O,,Miss RIPLee,,-0.41939278911359057
+Krash O,,Slam Bam Mir-I-Am,,-0.4748712915674549
+Krash O,,Double O Nuts,,-0.39197659077719044
+Krash O,,Hot Pursuit,,0.08115134081752384
+Hot Pursuit,,Krash O,,0.20611410974526762
+Hot Pursuit,,Slam Bam Mir-I-Am,,0.23153252411386813
+Hot Pursuit,,Double O Nuts,,0.3557422969187676
+Hot Pursuit,,Miss RIPLee,,0.302053964832152
+DeeDee Hisser,,Rude N Reckless,,-0.26102941176470584
+DeeDee Hisser,,Thunder Cakes,,-0.26102941176470584
+DeeDee Hisser,,Boppin,,-0.26102941176470584
+Boppin,,DeeDee Hisser,,-0.18577075098814233
+Boppin,,Rude N Reckless,,-0.18577075098814233
+Boppin,,Thunder Cakes,,-0.18577075098814233

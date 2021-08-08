@@ -42,6 +42,10 @@ if __name__ == '__main__':
     G = graph_util.loadGraphFromEdgeListTxt(edge_f, directed=isDirected)
     G = G.to_directed()
 
+
+
+
+
     models = []
     # Load the models you want to run
     models.append(GraphFactorization(d=2, max_iter=50000, eta=1 * 10**-4, regu=1.0, data_set='karate'))

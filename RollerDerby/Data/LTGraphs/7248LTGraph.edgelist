@@ -1,0 +1,102 @@
+Cheezus Crust,,Eleanor Whip-Me,,0.4246908940312631
+Cheezus Crust,,Professor Plum Cra...,,-0.016648516279030037
+Cheezus Crust,,Batty Oracle,,-0.3796191092882792
+Cheezus Crust,,Lethal Objection,,-0.15079828340841903
+Cheezus Crust,,AK40 Devin,,-0.2028482300923234
+Cheezus Crust,,Vindictive,,0.40467374300169207
+Cheezus Crust,,Killer Keebler,,-0.1329404561457996
+Eleanor Whip-Me,,Cheezus Crust,,1.0254337481029954
+Eleanor Whip-Me,,Professor Plum Cra...,,1.3603508379512477
+Eleanor Whip-Me,,Batty Oracle,,0.37453496821288734
+Eleanor Whip-Me,,Lethal Objection,,0.5429642879394103
+Eleanor Whip-Me,,AK40 Devin,,0.5295477103592257
+Eleanor Whip-Me,,Vindictive,,1.1205634875767712
+Professor Plum Cra...,,Cheezus Crust,,0.1498617898342064
+Professor Plum Cra...,,Eleanor Whip-Me,,0.6780060937406079
+Professor Plum Cra...,,Batty Oracle,,-0.09835355867465073
+Professor Plum Cra...,,Lethal Objection,,0.15389031218471957
+Professor Plum Cra...,,AK40 Devin,,-0.007103784395580286
+Professor Plum Cra...,,Vindictive,,0.44840095053259366
+Professor Plum Cra...,,Killer Keebler,,-0.1361111148362988
+Batty Oracle,,Cheezus Crust,,-0.18125944070763253
+Batty Oracle,,Eleanor Whip-Me,,0.18484076287008513
+Batty Oracle,,Professor Plum Cra...,,-0.005665990534144627
+Batty Oracle,,Lethal Objection,,-0.009803918698576964
+Batty Oracle,,AK40 Devin,,0.09774835621114328
+Batty Oracle,,Killer Keebler,,-0.10809818894977499
+Lethal Objection,,Professor Plum Cra...,,-0.5390561966413361
+Lethal Objection,,Cheezus Crust,,-0.600626380942819
+Lethal Objection,,Batty Oracle,,-0.20748898801706003
+Lethal Objection,,Eleanor Whip-Me,,-0.11651586079409601
+Lethal Objection,,Vindictive,,-0.058197278252279994
+Lethal Objection,,AK40 Devin,,-0.4003395534327245
+Lethal Objection,,Eveready,,-0.43606275216230006
+Lethal Objection,,Infamous GA,,-0.3137677973078066
+Lethal Objection,,Killer Keebler,,0.3228904676440209
+Lethal Objection,,Dixie Duke,,0.3849628237381409
+Lethal Objection,,Unlucky Chucky,,0.08179221605043367
+Lethal Objection,,Sunny D'Sasster,,-0.22799762357344983
+Lethal Objection,,Splatter,,0.007217095721251493
+AK40 Devin,,Cheezus Crust,,-0.9966342651174401
+AK40 Devin,,Batty Oracle,,-0.5293860219919327
+AK40 Devin,,Professor Plum Cra...,,-1.015845663089707
+AK40 Devin,,Eleanor Whip-Me,,-0.2409201829184598
+AK40 Devin,,Lethal Objection,,-0.45305864359695963
+AK40 Devin,,Vindictive,,-0.25019699396918765
+AK40 Devin,,Infamous GA,,-0.14151303518308583
+AK40 Devin,,Eveready,,-0.14153627311522032
+AK40 Devin,,Splatter,,-0.14153627311522032
+Vindictive,,Cheezus Crust,,1.358799562097321
+Vindictive,,Eleanor Whip-Me,,1.8715124389676823
+Vindictive,,Professor Plum Cra...,,1.77188474219579
+Vindictive,,Lethal Objection,,0.6494716404213849
+Vindictive,,AK40 Devin,,0.29867656326475434
+Killer Keebler,,Cheezus Crust,,-0.28095238095238084
+Killer Keebler,,Batty Oracle,,-0.28095238095238084
+Killer Keebler,,Professor Plum Cra...,,-0.28095238095238084
+Killer Keebler,,Eveready,,0.16642253654775316
+Killer Keebler,,Infamous GA,,0.1830761669689444
+Killer Keebler,,Lethal Objection,,0.7124319720400203
+Killer Keebler,,Sunny D'Sasster,,0.51238590837633
+Killer Keebler,,Splatter,,-0.016487441984706853
+Killer Keebler,,Dixie Duke,,0.5541327225508018
+Infamous GA,,Eveready,,-0.7463541126788041
+Infamous GA,,AK40 Devin,,-0.1712378224948045
+Infamous GA,,Splatter,,-0.17832057904412743
+Infamous GA,,Lethal Objection,,-0.4571827054670714
+Infamous GA,,Killer Keebler,,0.14210419331426902
+Infamous GA,,Dixie Duke,,0.11980494535277737
+Infamous GA,,Unlucky Chucky,,0.10167442022637639
+Infamous GA,,Sunny D'Sasster,,-0.6932810028385047
+Eveready,,Infamous GA,,-1.0527449086412495
+Eveready,,AK40 Devin,,-0.33127193278002476
+Eveready,,Splatter,,-0.4572363282007422
+Eveready,,Lethal Objection,,-0.847026056090885
+Eveready,,Killer Keebler,,0.06925668031804896
+Eveready,,Sunny D'Sasster,,-0.9821300570920467
+Splatter,,Infamous GA,,-0.3191414602603309
+Splatter,,Eveready,,-0.4126874900871409
+Splatter,,AK40 Devin,,-0.3440870142504484
+Splatter,,Sunny D'Sasster,,-0.25658924842710124
+Splatter,,Killer Keebler,,-0.12457131264543292
+Splatter,,Dixie Duke,,-0.2001564677101185
+Splatter,,Unlucky Chucky,,-0.15042770313966386
+Splatter,,Lethal Objection,,0.009542013210610309
+Sunny D'Sasster,,Eveready,,-1.2243177282081508
+Sunny D'Sasster,,Killer Keebler,,0.8432266591880436
+Sunny D'Sasster,,Splatter,,-0.43863028291118966
+Sunny D'Sasster,,Dixie Duke,,0.2807673535753682
+Sunny D'Sasster,,Unlucky Chucky,,-0.09999389660061003
+Sunny D'Sasster,,Lethal Objection,,-0.24603522761299434
+Sunny D'Sasster,,Infamous GA,,-1.1174242424242424
+Dixie Duke,,Infamous GA,,0.27208889801351693
+Dixie Duke,,Unlucky Chucky,,0.10114253752444907
+Dixie Duke,,Lethal Objection,,1.1199819586633506
+Dixie Duke,,Sunny D'Sasster,,0.6284744205463834
+Dixie Duke,,Splatter,,0.10446774682460275
+Dixie Duke,,Killer Keebler,,0.8500006102481605
+Unlucky Chucky,,Dixie Duke,,-0.08958333333333335
+Unlucky Chucky,,Infamous GA,,0.08953946728683743
+Unlucky Chucky,,Lethal Objection,,0.08953946728683743
+Unlucky Chucky,,Sunny D'Sasster,,-0.18669619486261982
+Unlucky Chucky,,Splatter,,-0.18850357334028153

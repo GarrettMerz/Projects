@@ -1,0 +1,32 @@
+Jess (Captain),,I Shove Lucy,,0.3712827028044421
+Jess (Captain),,Velvet Hammer,,0.3712827028044421
+Jess (Captain),,Cohnduct Disorder,,0.3712827028044421
+I Shove Lucy,,Jess (Captain),,0.5293650793654905
+I Shove Lucy,,Velvet Hammer,,0.5293650793654905
+I Shove Lucy,,Cohnduct Disorder,,0.5293650793654905
+I Shove Lucy,,Brawlyana,,-0.16874507839843533
+I Shove Lucy,,Medusya,,-0.14931033320996412
+I Shove Lucy,,Rosie Basher,,0.4125524452073632
+I Shove Lucy,,Machete,,-0.5619553832676023
+Velvet Hammer,,Jess (Captain),,0.36730660643704116
+Velvet Hammer,,I Shove Lucy,,0.36730660643704116
+Velvet Hammer,,Cohnduct Disorder,,0.36730660643704116
+Cohnduct Disorder,,Jess (Captain),,0.44551282051282115
+Cohnduct Disorder,,I Shove Lucy,,0.44551282051282115
+Cohnduct Disorder,,Velvet Hammer,,0.44551282051282115
+Brawlyana,,Medusya,,-1.1649449497050748
+Brawlyana,,I Shove Lucy,,-1.3769908100555406
+Brawlyana,,Rosie Basher,,-0.05349195868344153
+Brawlyana,,Machete,,-1.6888047989359076
+Medusya,,Brawlyana,,-1.5079449961802902
+Medusya,,I Shove Lucy,,-1.4037666487596654
+Medusya,,Rosie Basher,,-0.05063646620736048
+Medusya,,Machete,,-1.6899474347795407
+Rosie Basher,,Brawlyana,,0.23556457065584846
+Rosie Basher,,Medusya,,0.5276706237633513
+Rosie Basher,,I Shove Lucy,,0.2558995653583475
+Rosie Basher,,Machete,,-0.19306098565291951
+Machete,,Rosie Basher,,-0.5214978535314486
+Machete,,Medusya,,-1.8922572758382779
+Machete,,Brawlyana,,-2.114695340501792
+Machete,,I Shove Lucy,,-2.015209351838464

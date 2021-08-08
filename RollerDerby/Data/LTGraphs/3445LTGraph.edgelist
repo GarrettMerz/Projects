@@ -1,0 +1,743 @@
+Nancy Drew Blood,,Acute Angel,,-0.6240221766537557
+Nancy Drew Blood,,Gnarley Quinn,,-0.3312217446422593
+Nancy Drew Blood,,Virginia Slam,,-0.3312217446422593
+Nancy Drew Blood,,KaBlamazon,,-0.4632035123982808
+Nancy Drew Blood,,Electra Cal,,-0.48496790933800615
+Acute Angel,,Nancy Drew Blood,,-1.1114379084967319
+Acute Angel,,Gnarley Quinn,,-0.43270883894610707
+Acute Angel,,Virginia Slam,,-0.43270883894610707
+Acute Angel,,KaBlamazon,,-0.8408242052073821
+Acute Angel,,Electra Cal,,-0.8408242052073821
+Gnarley Quinn,,Nancy Drew Blood,,-0.1608187134502775
+Gnarley Quinn,,Acute Angel,,-0.16081871345029225
+Gnarley Quinn,,Virginia Slam,,-0.1608187134502775
+Gnarley Quinn,,Morgan Levy,,0.22980539921961546
+Gnarley Quinn,,Incredible Hull,,0.7759469828139587
+Gnarley Quinn,,Electra Cal,,0.8306424544386846
+Gnarley Quinn,,Phantom Power,,0.3580081320015736
+Gnarley Quinn,,Tear O'Bite,,-0.8015707100204754
+Gnarley Quinn,,Polly Pushy Pants,,-0.3269287582649945
+Gnarley Quinn,,Cole Hearted,,0.1294969168453219
+Gnarley Quinn,,Evil Mendes,,-0.07822979023037797
+Gnarley Quinn,,Sugar (NRG),,-0.13247230369280316
+Virginia Slam,,Nancy Drew Blood,,-0.1904761904761907
+Virginia Slam,,Acute Angel,,-0.1904761904761907
+Virginia Slam,,Gnarley Quinn,,-0.1904761904761907
+KaBlamazon,,Nancy Drew Blood,,-0.7071428571428571
+KaBlamazon,,Acute Angel,,-0.7071428571428571
+KaBlamazon,,Electra Cal,,-0.7071428571428571
+Electra Cal,,Nancy Drew Blood,,-0.6467391304347573
+Electra Cal,,Acute Angel,,-0.6467391304347573
+Electra Cal,,KaBlamazon,,-0.6467391304347573
+Electra Cal,,Morgan Levy,,-0.5332604775468219
+Electra Cal,,Gnarley Quinn,,0.2958119649632146
+Electra Cal,,Incredible Hull,,0.4304540893950751
+Electra Cal,,Phantom Power,,-0.4771360210138564
+Electra Cal,,Polly Pushy Pants,,-0.5349292132202482
+Electra Cal,,Tear O'Bite,,-1.3341969710595427
+Electra Cal,,Cole Hearted,,-0.4313386454824334
+Electra Cal,,Evil Mendes,,-0.432883520645722
+Electra Cal,,Electric Boogaloo,,0.590201339708874
+Electra Cal,,Sugar (NRG),,0.020220795450539838
+Electra Cal,,Stella Live,,-0.5008721284015616
+Electra Cal,,Maulin Monroe,,-0.7119839199241046
+Electra Cal,,Zip Drive,,-0.28247926576694427
+Electra Cal,,S. Botts,,-0.10008097226171891
+Electra Cal,,Lady Fury,,-0.09246754813313297
+Electra Cal,,Union Jack-U-Up,,0.30828259825297394
+Electra Cal,,Dani Doom,,-0.5223173629248822
+Electra Cal,,Hippy-Ki-Yay,,-0.31608617576700765
+Electra Cal,,Four-Leaf Roller,,-0.050669841079523034
+Electra Cal,,Britches N' Hose,,-0.13042274792662584
+Electra Cal,,LeeAnn Crimes,,-0.06635762156440292
+Electra Cal,,Big Banger,,-0.03859031690251983
+Electra Cal,,Sugar Magmaulya,,0.006823903849844391
+Electra Cal,,Jennifer Smith,,0.0647023880206636
+Electra Cal,,Stampeedee Gonzale...,,-0.002177723864360305
+Electra Cal,,Susan,,0.02617606325327395
+Electra Cal,,Slammylou Harris,,0.11607120289698443
+Electra Cal,,Hildabeast,,0.04423766284206629
+Electra Cal,,Curse Practitioner,,-0.006345286181023215
+Morgan Levy,,Gnarley Quinn,,-0.6752505890004907
+Morgan Levy,,Incredible Hull,,0.5152878876340458
+Morgan Levy,,Electra Cal,,-0.3724281704953148
+Morgan Levy,,Phantom Power,,-1.3514959896432295
+Morgan Levy,,Polly Pushy Pants,,-2.333731800803628
+Morgan Levy,,Tear O'Bite,,-2.886038336235746
+Morgan Levy,,Cole Hearted,,-0.898550879749156
+Morgan Levy,,Evil Mendes,,-0.4076336784690857
+Morgan Levy,,Electric Boogaloo,,0.7604208203641277
+Morgan Levy,,Sugar (NRG),,0.7474180204680655
+Morgan Levy,,Stella Live,,0.38114972712255835
+Morgan Levy,,Maulin Monroe,,-0.08552894648025348
+Morgan Levy,,Zip Drive,,-0.4337022324611527
+Morgan Levy,,Kill'n Dem Hose,,-0.04058300659321109
+Morgan Levy,,S. Botts,,-0.1561307522453942
+Morgan Levy,,Lady Fury,,-0.32684897385965933
+Morgan Levy,,Union Jack-U-Up,,0.03589315033860731
+Morgan Levy,,Dani Doom,,0.7366971032961289
+Morgan Levy,,Hippy-Ki-Yay,,0.7379879489272336
+Incredible Hull,,Morgan Levy,,-1.565600905945125
+Incredible Hull,,Gnarley Quinn,,0.7725490196078431
+Incredible Hull,,Electra Cal,,1.767267834139465
+Incredible Hull,,Phantom Power,,0.19220962582922355
+Incredible Hull,,Hippy-Ki-Yay,,-0.9065318143476181
+Incredible Hull,,Dani Doom,,-1.56592318974376
+Incredible Hull,,Stella Live,,0.0076775087278500576
+Incredible Hull,,Union Jack-U-Up,,0.8994553661962148
+Incredible Hull,,Zip Drive,,0.5294278910463738
+Incredible Hull,,Lady Fury,,0.38907038662754917
+Incredible Hull,,Four-Leaf Roller,,-0.021208082988013566
+Phantom Power,,Gnarley Quinn,,-0.3680782640531481
+Phantom Power,,Incredible Hull,,0.32794376773164546
+Phantom Power,,Morgan Levy,,-1.6746877942703942
+Phantom Power,,Electra Cal,,-1.9461405571485022
+Phantom Power,,Polly Pushy Pants,,-1.9329012125133336
+Phantom Power,,Tear O'Bite,,-1.749574417214543
+Phantom Power,,Cole Hearted,,-0.6483602146317038
+Phantom Power,,Evil Mendes,,-0.09018597943012996
+Phantom Power,,Sugar (NRG),,-0.2237576387529006
+Phantom Power,,Zip Drive,,-0.14744159150770297
+Phantom Power,,Stella Live,,0.3139952646868178
+Phantom Power,,Maulin Monroe,,-0.527002395487524
+Phantom Power,,Lady Fury,,-0.35988374692403957
+Phantom Power,,Union Jack-U-Up,,-0.044931895538142336
+Phantom Power,,Dani Doom,,0.4066694349529231
+Phantom Power,,Hippy-Ki-Yay,,0.003561863901993957
+Phantom Power,,LeeAnn Crimes,,-0.14426734304440128
+Polly Pushy Pants,,Morgan Levy,,-4.580455345302676
+Polly Pushy Pants,,Electra Cal,,-1.7885970939722964
+Polly Pushy Pants,,Phantom Power,,-3.4016882500094474
+Polly Pushy Pants,,Cole Hearted,,-1.4541670173859265
+Polly Pushy Pants,,Tear O'Bite,,-3.6948237254850875
+Polly Pushy Pants,,Gnarley Quinn,,-2.365363201907556
+Polly Pushy Pants,,Evil Mendes,,0.03642673772024093
+Tear O'Bite,,Electra Cal,,-1.7923619643973205
+Tear O'Bite,,Gnarley Quinn,,-1.855537179543637
+Tear O'Bite,,Phantom Power,,-1.3692362688208468
+Tear O'Bite,,Morgan Levy,,-3.1936790998850713
+Tear O'Bite,,Polly Pushy Pants,,-1.7377258477321802
+Tear O'Bite,,Cole Hearted,,1.16912942489904
+Tear O'Bite,,Evil Mendes,,0.7860382967340472
+Tear O'Bite,,Maulin Monroe,,0.8569477342575609
+Tear O'Bite,,Sugar (NRG),,0.35951229393769096
+Tear O'Bite,,Electric Boogaloo,,0.10311129197835352
+Tear O'Bite,,Stella Live,,1.8055470738456765
+Tear O'Bite,,Kill'n Dem Hose,,0.07195325719269839
+Tear O'Bite,,Zip Drive,,-0.05976862324340502
+Tear O'Bite,,S. Botts,,-0.057708851232213365
+Tear O'Bite,,Lady Fury,,-0.4005489814437012
+Tear O'Bite,,Union Jack-U-Up,,-0.23506371567785259
+Tear O'Bite,,Dani Doom,,-0.22138415456375685
+Tear O'Bite,,Hippy-Ki-Yay,,0.08565723587725593
+Tear O'Bite,,Britches N' Hose,,-0.06478395845154285
+Tear O'Bite,,LeeAnn Crimes,,0.050446527754797535
+Tear O'Bite,,Four-Leaf Roller,,0.018371099323728327
+Tear O'Bite,,Sugar Magmaulya,,-0.020547843467705985
+Tear O'Bite,,Big Banger,,-0.10910874952914947
+Cole Hearted,,Electra Cal,,1.0164767353314659
+Cole Hearted,,Polly Pushy Pants,,0.5092993918458253
+Cole Hearted,,Phantom Power,,-0.20314455090052014
+Cole Hearted,,Morgan Levy,,-0.480401434643156
+Cole Hearted,,Tear O'Bite,,0.6449665895532943
+Cole Hearted,,Gnarley Quinn,,0.712595127452303
+Cole Hearted,,Evil Mendes,,0.8753677713889768
+Cole Hearted,,Maulin Monroe,,0.7139707237727249
+Cole Hearted,,Sugar (NRG),,0.0006463760485922584
+Cole Hearted,,Electric Boogaloo,,0.43415314089502816
+Cole Hearted,,Stella Live,,1.1386380232383142
+Cole Hearted,,Kill'n Dem Hose,,0.13744914223755547
+Cole Hearted,,Zip Drive,,-0.15070449956103696
+Cole Hearted,,S. Botts,,-0.017208073439498067
+Cole Hearted,,Union Jack-U-Up,,0.03726660027444803
+Cole Hearted,,Lady Fury,,-0.0003412472593290021
+Cole Hearted,,Dani Doom,,0.04551976297768551
+Cole Hearted,,Hippy-Ki-Yay,,-0.06010398706347348
+Evil Mendes,,Morgan Levy,,-0.40052084571987323
+Evil Mendes,,Cole Hearted,,1.6257239628977416
+Evil Mendes,,Electra Cal,,0.3416285156782954
+Evil Mendes,,Gnarley Quinn,,-0.23729106363856697
+Evil Mendes,,Tear O'Bite,,0.2352437797116092
+Evil Mendes,,Polly Pushy Pants,,0.33383408204699744
+Evil Mendes,,Phantom Power,,-0.04770196562051596
+Evil Mendes,,Maulin Monroe,,-0.14933460453271596
+Evil Mendes,,Stella Live,,-0.02043859825290336
+Evil Mendes,,Sugar (NRG),,0.10319009857545877
+Evil Mendes,,Electric Boogaloo,,-0.18984113399079125
+Evil Mendes,,Zip Drive,,-0.4282886451687694
+Evil Mendes,,Kill'n Dem Hose,,-0.08222701806546538
+Electric Boogaloo,,Morgan Levy,,1.9668817197758883
+Electric Boogaloo,,Sugar (NRG),,2.8292598727679152
+Electric Boogaloo,,Electra Cal,,2.8773536529245254
+Electric Boogaloo,,Tear O'Bite,,0.18015219746514657
+Electric Boogaloo,,Stella Live,,0.1565593088762651
+Electric Boogaloo,,Cole Hearted,,0.6134789521578663
+Electric Boogaloo,,Maulin Monroe,,-0.11421802097939873
+Electric Boogaloo,,Evil Mendes,,-0.29369351428770846
+Electric Boogaloo,,Lady Fury,,0.08734375925979368
+Electric Boogaloo,,Union Jack-U-Up,,0.00896254759848425
+Electric Boogaloo,,Dani Doom,,-0.07529989364532177
+Electric Boogaloo,,Hippy-Ki-Yay,,-0.12936751424018975
+Electric Boogaloo,,Zip Drive,,-0.010257555786957414
+Sugar (NRG),,Morgan Levy,,2.5052219455513094
+Sugar (NRG),,Electric Boogaloo,,3.0273541523589387
+Sugar (NRG),,Electra Cal,,2.2275311627050596
+Sugar (NRG),,Tear O'Bite,,0.31901721935891975
+Sugar (NRG),,Cole Hearted,,0.20562246385185234
+Sugar (NRG),,Stella Live,,-0.31551374122562187
+Sugar (NRG),,Evil Mendes,,0.15914153718959662
+Sugar (NRG),,Maulin Monroe,,-0.8360597162324367
+Sugar (NRG),,Gnarley Quinn,,-0.17120433544666713
+Sugar (NRG),,Phantom Power,,-0.1965866893034249
+Sugar (NRG),,Zip Drive,,-0.582587460074458
+Sugar (NRG),,S. Botts,,-0.012962749747981088
+Maulin Monroe,,Tear O'Bite,,0.17437437416234983
+Maulin Monroe,,Evil Mendes,,-0.675502664558782
+Maulin Monroe,,Cole Hearted,,1.1126958310055632
+Maulin Monroe,,Stella Live,,0.8339135719136636
+Maulin Monroe,,Electra Cal,,-1.4537600000602044
+Maulin Monroe,,Electric Boogaloo,,-0.18557024054053192
+Maulin Monroe,,Sugar (NRG),,-0.648782642298921
+Maulin Monroe,,Morgan Levy,,-0.3334222643486868
+Maulin Monroe,,Zip Drive,,0.21939443130328792
+Maulin Monroe,,Kill'n Dem Hose,,0.14656163376239562
+Maulin Monroe,,S. Botts,,-0.14927728444232793
+Maulin Monroe,,Phantom Power,,-0.1539694245283705
+Maulin Monroe,,Lady Fury,,-0.4585246458596533
+Maulin Monroe,,Union Jack-U-Up,,-0.18512454449581373
+Maulin Monroe,,Dani Doom,,0.6337471139784666
+Maulin Monroe,,Hippy-Ki-Yay,,0.46734938225207123
+Maulin Monroe,,Britches N' Hose,,-0.11964705215567245
+Maulin Monroe,,Sugar Magmaulya,,-0.011176713187795907
+Maulin Monroe,,LeeAnn Crimes,,-0.13806191848543348
+Maulin Monroe,,Stampeedee Gonzale...,,-0.17290975434720401
+Maulin Monroe,,Slammylou Harris,,-0.01037027318647973
+Maulin Monroe,,Jennifer Smith,,-0.003754487044820389
+Maulin Monroe,,Hildabeast,,0.36044503127182037
+Maulin Monroe,,Susan,,-0.08137469928886111
+Maulin Monroe,,Four-Leaf Roller,,-0.04785945713415585
+Maulin Monroe,,Slayla,,-0.001879099247065725
+Maulin Monroe,,sHedonist,,-0.08820932421400564
+Maulin Monroe,,Curse Practitioner,,-0.06712875593930881
+Maulin Monroe,,Ramb0 Samb0,,-0.014220171930232818
+Maulin Monroe,,Rock Nasty,,-0.16704360148034653
+Maulin Monroe,,Showstopper,,-0.06533564738927136
+Maulin Monroe,,5 Scar Jeneral,,-0.0009337068160597539
+Maulin Monroe,,E-Money,,-0.013809571247259695
+Stella Live,,Tear O'Bite,,0.5157728623431839
+Stella Live,,Maulin Monroe,,-0.1850410225283184
+Stella Live,,Evil Mendes,,-0.6046266247130755
+Stella Live,,Sugar (NRG),,-0.7978264314759441
+Stella Live,,Morgan Levy,,-1.0518069225539084
+Stella Live,,Electra Cal,,-1.8057052379916514
+Stella Live,,Electric Boogaloo,,0.22625568855239309
+Stella Live,,Cole Hearted,,1.300071705422
+Stella Live,,Zip Drive,,0.028209625822469313
+Stella Live,,Phantom Power,,0.13638797709473405
+Stella Live,,Kill'n Dem Hose,,-0.2306978566115532
+Stella Live,,S. Botts,,-0.03809653346882031
+Stella Live,,Lady Fury,,-0.06034582819008877
+Stella Live,,Union Jack-U-Up,,0.09675104255618898
+Stella Live,,Dani Doom,,0.1136244742906954
+Stella Live,,Hippy-Ki-Yay,,0.334391802044622
+Stella Live,,Incredible Hull,,0.13933377038850955
+Stella Live,,Four-Leaf Roller,,-0.02488162055959488
+Stella Live,,Britches N' Hose,,-0.10038758903194013
+Stella Live,,LeeAnn Crimes,,-0.03961962977217551
+Stella Live,,Sugar Magmaulya,,-0.024815131686220567
+Stella Live,,Jennifer Smith,,0.034930560554209296
+Stella Live,,Susan,,0.013643933630699356
+Stella Live,,Stampeedee Gonzale...,,-0.018725415464895
+Stella Live,,Hildabeast,,0.017431229812725234
+Stella Live,,Slayla,,0.0039381693824179645
+Stella Live,,sHedonist,,-0.027566667568704243
+Stella Live,,Slammylou Harris,,-0.03559765772113402
+Zip Drive,,Maulin Monroe,,2.2872654980482183
+Zip Drive,,Electra Cal,,0.38001911462813054
+Zip Drive,,Evil Mendes,,-0.41260599190354935
+Zip Drive,,Sugar (NRG),,0.176324484938932
+Zip Drive,,Tear O'Bite,,1.3669885877008665
+Zip Drive,,Stella Live,,1.2557106302488408
+Zip Drive,,Phantom Power,,-0.5382086022998909
+Zip Drive,,Morgan Levy,,-0.7581313475376366
+Zip Drive,,Cole Hearted,,-0.7640603442435714
+Zip Drive,,S. Botts,,-0.2673459473071947
+Zip Drive,,Lady Fury,,0.663137981430472
+Zip Drive,,Union Jack-U-Up,,0.9128492786337677
+Zip Drive,,Dani Doom,,-0.27317499895611014
+Zip Drive,,Hippy-Ki-Yay,,0.14994069147804434
+Zip Drive,,Electric Boogaloo,,0.006179186072788728
+Zip Drive,,Incredible Hull,,0.24744671825426817
+Zip Drive,,Britches N' Hose,,0.009750635507494413
+Zip Drive,,LeeAnn Crimes,,-0.021278962732202162
+Kill'n Dem Hose,,Tear O'Bite,,-0.12468487394957961
+Kill'n Dem Hose,,Maulin Monroe,,0.26102941176470607
+Kill'n Dem Hose,,Cole Hearted,,0.3988564490481494
+Kill'n Dem Hose,,Morgan Levy,,-1.1092436974789917
+Kill'n Dem Hose,,Stella Live,,-1.1091561318665613
+Kill'n Dem Hose,,Evil Mendes,,-0.8672774643292517
+S. Botts,,Tear O'Bite,,0.4336174328722727
+S. Botts,,Morgan Levy,,0.3220607957140359
+S. Botts,,Cole Hearted,,0.4507848891208368
+S. Botts,,Zip Drive,,-0.017813942691326492
+S. Botts,,Electra Cal,,0.9911400545240989
+S. Botts,,Stella Live,,0.08975195112231964
+S. Botts,,Sugar (NRG),,0.28005238308867386
+S. Botts,,Maulin Monroe,,-1.021323514898459
+S. Botts,,Lady Fury,,-0.006711786803654696
+Lady Fury,,Tear O'Bite,,-0.09516066100739191
+Lady Fury,,Stella Live,,-0.021524449608513185
+Lady Fury,,Maulin Monroe,,-0.6803698511001395
+Lady Fury,,Morgan Levy,,-0.2834539690045837
+Lady Fury,,Electra Cal,,1.9470208306988448
+Lady Fury,,Zip Drive,,2.874771606602999
+Lady Fury,,Phantom Power,,-0.07308851400444386
+Lady Fury,,Union Jack-U-Up,,1.29526886339535
+Lady Fury,,Cole Hearted,,-0.3320624317107106
+Lady Fury,,S. Botts,,-0.05369441666225482
+Lady Fury,,Dani Doom,,-0.4226469430998509
+Lady Fury,,Electric Boogaloo,,0.3380090710387795
+Lady Fury,,Hippy-Ki-Yay,,-0.4687776700108667
+Lady Fury,,Incredible Hull,,0.10442277400969076
+Lady Fury,,Britches N' Hose,,0.4556446401056476
+Lady Fury,,LeeAnn Crimes,,0.08486761065621626
+Lady Fury,,Four-Leaf Roller,,-0.21569036209614426
+Lady Fury,,Big Banger,,0.005111799817074975
+Lady Fury,,Stampeedee Gonzale...,,0.21467355206130345
+Lady Fury,,Slammylou Harris,,-0.0910310366656218
+Lady Fury,,Jennifer Smith,,0.239142602156439
+Lady Fury,,Hildabeast,,0.13458236168903265
+Lady Fury,,Susan,,0.025144059995827004
+Lady Fury,,Sugar Magmaulya,,-0.017239836776456092
+Lady Fury,,Slayla,,-0.024788626276692108
+Lady Fury,,sHedonist,,0.03911485379940304
+Lady Fury,,Ramb0 Samb0,,-0.006436483306565013
+Lady Fury,,Rock Nasty,,0.10591891554763526
+Lady Fury,,Showstopper,,0.2210433347152147
+Lady Fury,,5 Scar Jeneral,,-0.013578807663663943
+Lady Fury,,E-Money,,-0.01885793572767314
+Lady Fury,,Luscious Loosie,,-0.019366341849941886
+Union Jack-U-Up,,Cole Hearted,,-0.11520987386330017
+Union Jack-U-Up,,Morgan Levy,,-1.1120917026518098
+Union Jack-U-Up,,Lady Fury,,-1.3111115508218691
+Union Jack-U-Up,,Phantom Power,,0.45012149483212893
+Union Jack-U-Up,,Stella Live,,0.26050548615343105
+Union Jack-U-Up,,Zip Drive,,0.4642688207609919
+Union Jack-U-Up,,Electra Cal,,0.4330513181060153
+Union Jack-U-Up,,Maulin Monroe,,-0.5430820832168761
+Union Jack-U-Up,,Tear O'Bite,,-0.9066622975665917
+Union Jack-U-Up,,Dani Doom,,-0.48595337392746013
+Union Jack-U-Up,,Electric Boogaloo,,0.17108209341991812
+Union Jack-U-Up,,Hippy-Ki-Yay,,-0.4247362757355287
+Union Jack-U-Up,,Incredible Hull,,0.26035150701698895
+Union Jack-U-Up,,Britches N' Hose,,-0.429365706320761
+Union Jack-U-Up,,LeeAnn Crimes,,0.0613518308828389
+Union Jack-U-Up,,Sugar Magmaulya,,-0.09133121454306897
+Union Jack-U-Up,,Big Banger,,-0.07429119643426654
+Union Jack-U-Up,,Four-Leaf Roller,,-0.3657570088612447
+Union Jack-U-Up,,Stampeedee Gonzale...,,0.005886948707380691
+Union Jack-U-Up,,Slammylou Harris,,-0.18045080966161695
+Union Jack-U-Up,,Jennifer Smith,,-0.06874699349554722
+Union Jack-U-Up,,Hildabeast,,0.01837236493452127
+Union Jack-U-Up,,Susan,,-0.0019035120733802535
+Union Jack-U-Up,,Slayla,,-0.10654794716017582
+Union Jack-U-Up,,sHedonist,,-0.017445219685230152
+Union Jack-U-Up,,Curse Practitioner,,-0.006451827320867478
+Union Jack-U-Up,,Ramb0 Samb0,,-0.011037280615308965
+Union Jack-U-Up,,Rock Nasty,,-0.10930966908676905
+Union Jack-U-Up,,Showstopper,,-0.030035227301055616
+Union Jack-U-Up,,5 Scar Jeneral,,0.008541744956782647
+Union Jack-U-Up,,E-Money,,-0.04451253835662851
+Union Jack-U-Up,,???,,-0.010837149297187274
+Union Jack-U-Up,,Luscious Loosie,,-0.0297960534595839
+Dani Doom,,Union Jack-U-Up,,1.5499455855827489
+Dani Doom,,Stella Live,,3.469816805692473
+Dani Doom,,Tear O'Bite,,-0.24957331075775152
+Dani Doom,,Cole Hearted,,2.635553420812914
+Dani Doom,,Zip Drive,,-1.1305944953797835
+Dani Doom,,Maulin Monroe,,4.104839055089171
+Dani Doom,,Morgan Levy,,3.6813176651560258
+Dani Doom,,Electra Cal,,-1.6169654493177088
+Dani Doom,,Hippy-Ki-Yay,,3.7809603048588722
+Dani Doom,,Lady Fury,,-0.7106971291405433
+Dani Doom,,Electric Boogaloo,,0.11048361456526602
+Dani Doom,,Phantom Power,,0.2273755590376472
+Dani Doom,,Incredible Hull,,-0.008770263307451509
+Dani Doom,,Britches N' Hose,,-0.572234480125535
+Dani Doom,,LeeAnn Crimes,,0.05066172197572352
+Dani Doom,,Four-Leaf Roller,,0.015731201474302632
+Dani Doom,,Big Banger,,0.04062527123441104
+Dani Doom,,Hildabeast,,0.14565254259591728
+Dani Doom,,Jennifer Smith,,0.03718673987881669
+Dani Doom,,Slammylou Harris,,0.08210545471616287
+Dani Doom,,Stampeedee Gonzale...,,0.030233661955219336
+Dani Doom,,Susan,,0.04360637211458106
+Dani Doom,,Sugar Magmaulya,,0.03525043105272448
+Dani Doom,,Slayla,,-0.055338003506046535
+Dani Doom,,sHedonist,,0.014061717489965788
+Dani Doom,,Curse Practitioner,,-0.005308315496357975
+Hippy-Ki-Yay,,Morgan Levy,,-1.9420216751265502
+Hippy-Ki-Yay,,Stella Live,,-3.082398023078264
+Hippy-Ki-Yay,,Dani Doom,,-0.5695679068972405
+Hippy-Ki-Yay,,Maulin Monroe,,1.6363611539684508
+Hippy-Ki-Yay,,Lady Fury,,-1.4982352616664913
+Hippy-Ki-Yay,,Cole Hearted,,-0.37404455261571434
+Hippy-Ki-Yay,,Electra Cal,,-2.17729560956348
+Hippy-Ki-Yay,,Tear O'Bite,,-0.44081747075095673
+Hippy-Ki-Yay,,Union Jack-U-Up,,-1.356155229148273
+Hippy-Ki-Yay,,Zip Drive,,-0.8295637085456411
+Hippy-Ki-Yay,,Phantom Power,,-0.003454053619700745
+Hippy-Ki-Yay,,Electric Boogaloo,,-0.13469502805847894
+Hippy-Ki-Yay,,Incredible Hull,,-0.08700938163836676
+Hippy-Ki-Yay,,Britches N' Hose,,-0.08344031599986788
+Hippy-Ki-Yay,,LeeAnn Crimes,,0.005401055418841408
+Hippy-Ki-Yay,,Four-Leaf Roller,,-0.06409153269310364
+Hippy-Ki-Yay,,Big Banger,,-0.07491759452657475
+Hippy-Ki-Yay,,Sugar Magmaulya,,0.020392991213902967
+Hippy-Ki-Yay,,Jennifer Smith,,0.12285245732516724
+Hippy-Ki-Yay,,Slammylou Harris,,-0.03943383875594117
+Hippy-Ki-Yay,,Hildabeast,,0.09235379557292409
+Hippy-Ki-Yay,,Susan,,0.01700228764533058
+Hippy-Ki-Yay,,Stampeedee Gonzale...,,-0.005978158423562875
+Four-Leaf Roller,,Incredible Hull,,2.0174273817507234e-73
+Four-Leaf Roller,,Electra Cal,,2.2698173011403764
+Four-Leaf Roller,,Stella Live,,1.0736006678189216
+Four-Leaf Roller,,Dani Doom,,2.7330592256902433
+Four-Leaf Roller,,Lady Fury,,0.4525529435643901
+Four-Leaf Roller,,Hippy-Ki-Yay,,0.9071435689941907
+Four-Leaf Roller,,Tear O'Bite,,1.8443227301381715
+Four-Leaf Roller,,LeeAnn Crimes,,1.554798624622728
+Four-Leaf Roller,,Union Jack-U-Up,,-0.5481838386326121
+Four-Leaf Roller,,Stampeedee Gonzale...,,1.5248693100998774
+Four-Leaf Roller,,Maulin Monroe,,1.5885523711142553
+Four-Leaf Roller,,Britches N' Hose,,-0.3912560065782427
+Four-Leaf Roller,,Hildabeast,,0.6055837712548928
+Four-Leaf Roller,,Jennifer Smith,,1.963274625386425
+Four-Leaf Roller,,Slammylou Harris,,1.242231853802429
+Four-Leaf Roller,,sHedonist,,0.10274274150925594
+Four-Leaf Roller,,Slayla,,0.056607911852031165
+Four-Leaf Roller,,Sugar Magmaulya,,0.5793915542428435
+Four-Leaf Roller,,Susan,,-0.2874173138010814
+Four-Leaf Roller,,Curse Practitioner,,-0.20740229319970915
+Four-Leaf Roller,,Rock Nasty,,0.13432365528831267
+Four-Leaf Roller,,Ramb0 Samb0,,0.09290923871397622
+Four-Leaf Roller,,Showstopper,,0.43142491701499497
+Four-Leaf Roller,,5 Scar Jeneral,,0.24891977211426955
+Four-Leaf Roller,,E-Money,,0.08531450146051912
+Four-Leaf Roller,,???,,-0.0374475505620386
+Four-Leaf Roller,,Luscious Loosie,,-0.19180780298699432
+Britches N' Hose,,Tear O'Bite,,0.5332570731826034
+Britches N' Hose,,Electra Cal,,-1.063349587734795
+Britches N' Hose,,Union Jack-U-Up,,0.48538935618132073
+Britches N' Hose,,Dani Doom,,-2.737144944291299
+Britches N' Hose,,Stella Live,,1.5448072859606548
+Britches N' Hose,,Hippy-Ki-Yay,,1.861781899002135
+Britches N' Hose,,Lady Fury,,2.2027178303375248
+Britches N' Hose,,Zip Drive,,0.13681859257831375
+Britches N' Hose,,LeeAnn Crimes,,0.5503093491941646
+Britches N' Hose,,Maulin Monroe,,-0.08378563288796442
+Britches N' Hose,,Stampeedee Gonzale...,,0.3763798578828657
+Britches N' Hose,,Slammylou Harris,,0.5800499573718186
+Britches N' Hose,,Hildabeast,,0.2767828693062009
+Britches N' Hose,,Jennifer Smith,,-0.27835423491961087
+Britches N' Hose,,Susan,,0.09560931563134462
+Britches N' Hose,,Four-Leaf Roller,,-0.6027092459678602
+Britches N' Hose,,Sugar Magmaulya,,-0.07477907685995315
+Britches N' Hose,,Slayla,,-0.17257626566349796
+Britches N' Hose,,sHedonist,,0.13324855217969503
+Britches N' Hose,,Curse Practitioner,,0.1429484363913879
+Britches N' Hose,,Ramb0 Samb0,,-0.03281848797799276
+Britches N' Hose,,Rock Nasty,,0.0617985967228424
+Britches N' Hose,,Showstopper,,0.0030071786148262955
+Britches N' Hose,,5 Scar Jeneral,,-0.027458433685195047
+Britches N' Hose,,E-Money,,-0.1043431099854096
+Britches N' Hose,,???,,-0.019966123407029978
+Britches N' Hose,,Luscious Loosie,,-0.04109176571997653
+LeeAnn Crimes,,Hippy-Ki-Yay,,3.1675861530138683
+LeeAnn Crimes,,Stella Live,,1.177960170820176
+LeeAnn Crimes,,Britches N' Hose,,2.0008209915920756
+LeeAnn Crimes,,Electra Cal,,0.05291039757613301
+LeeAnn Crimes,,Tear O'Bite,,2.323532732188534
+LeeAnn Crimes,,Dani Doom,,1.8553503381658591
+LeeAnn Crimes,,Union Jack-U-Up,,3.012170200786429
+LeeAnn Crimes,,Lady Fury,,0.7602633189412958
+LeeAnn Crimes,,Four-Leaf Roller,,0.6112389583153731
+LeeAnn Crimes,,Big Banger,,-0.41135813518871206
+LeeAnn Crimes,,Maulin Monroe,,-0.6548599376878348
+LeeAnn Crimes,,Zip Drive,,-0.1274026372999207
+LeeAnn Crimes,,Phantom Power,,-0.199418808021659
+LeeAnn Crimes,,Hildabeast,,-0.15681981592306882
+LeeAnn Crimes,,Slayla,,0.3563403610596608
+LeeAnn Crimes,,Susan,,-0.2753031207657993
+LeeAnn Crimes,,Jennifer Smith,,-0.03816500995833935
+LeeAnn Crimes,,Slammylou Harris,,0.11875028388775095
+LeeAnn Crimes,,Rock Nasty,,0.06250922678649481
+LeeAnn Crimes,,Ramb0 Samb0,,0.04691016994610886
+LeeAnn Crimes,,Showstopper,,-0.06084558290564575
+LeeAnn Crimes,,5 Scar Jeneral,,0.007496212288652246
+LeeAnn Crimes,,E-Money,,0.06283402498525979
+LeeAnn Crimes,,Luscious Loosie,,-0.07789616662170512
+Big Banger,,Hippy-Ki-Yay,,-0.7811974789915967
+Big Banger,,Dani Doom,,0.3164575850204541
+Big Banger,,Electra Cal,,-0.96560729323447
+Big Banger,,Lady Fury,,-0.49683628034636984
+Big Banger,,LeeAnn Crimes,,-1.3384244436230746
+Big Banger,,Union Jack-U-Up,,-2.4696746019304947
+Big Banger,,Tear O'Bite,,-2.7133955427761833
+Sugar Magmaulya,,Electra Cal,,0.22966871175666825
+Sugar Magmaulya,,Hippy-Ki-Yay,,0.22966871175666825
+Sugar Magmaulya,,Stella Live,,-0.18925363901171482
+Sugar Magmaulya,,Maulin Monroe,,-0.13724130096778164
+Sugar Magmaulya,,Tear O'Bite,,-0.15810101641691343
+Sugar Magmaulya,,Union Jack-U-Up,,-1.7792099390891027
+Sugar Magmaulya,,Jennifer Smith,,-1.3350560778323919
+Sugar Magmaulya,,Dani Doom,,0.07651076193415565
+Sugar Magmaulya,,Susan,,-0.19656196062399467
+Sugar Magmaulya,,Slammylou Harris,,-1.222314232557584
+Sugar Magmaulya,,Stampeedee Gonzale...,,1.169061117342601
+Sugar Magmaulya,,Britches N' Hose,,0.05775338824059524
+Sugar Magmaulya,,Lady Fury,,-0.38536419639161995
+Sugar Magmaulya,,Slayla,,-0.12114510524040197
+Sugar Magmaulya,,sHedonist,,-0.7134636345210937
+Sugar Magmaulya,,Four-Leaf Roller,,0.4213284033048502
+Sugar Magmaulya,,Hildabeast,,0.5911232810093251
+Stampeedee Gonzale...,,Union Jack-U-Up,,-0.33903071114059147
+Stampeedee Gonzale...,,Britches N' Hose,,0.3593407601925095
+Stampeedee Gonzale...,,Maulin Monroe,,-2.134481970398213
+Stampeedee Gonzale...,,Lady Fury,,0.9730634129524777
+Stampeedee Gonzale...,,Slammylou Harris,,-0.8685173353825375
+Stampeedee Gonzale...,,Hildabeast,,0.43866693862915507
+Stampeedee Gonzale...,,Jennifer Smith,,0.5685401487581592
+Stampeedee Gonzale...,,Electra Cal,,0.1932850154529038
+Stampeedee Gonzale...,,Dani Doom,,0.13878792217868305
+Stampeedee Gonzale...,,Susan,,0.7737737358169878
+Stampeedee Gonzale...,,Four-Leaf Roller,,-0.20297689120407267
+Stampeedee Gonzale...,,Hippy-Ki-Yay,,-0.009956309802683637
+Stampeedee Gonzale...,,Stella Live,,-0.2113998609372564
+Stampeedee Gonzale...,,Sugar Magmaulya,,0.23788122563408132
+Stampeedee Gonzale...,,Slayla,,0.06139479067261168
+Stampeedee Gonzale...,,sHedonist,,-0.15718130308910802
+Stampeedee Gonzale...,,Curse Practitioner,,-0.16460552769404557
+Stampeedee Gonzale...,,Ramb0 Samb0,,0.1011761397201157
+Stampeedee Gonzale...,,Showstopper,,0.16654434660472586
+Stampeedee Gonzale...,,Rock Nasty,,0.054186148245693976
+Slammylou Harris,,Stampeedee Gonzale...,,1.05716788656125
+Slammylou Harris,,Lady Fury,,1.0563599165505169
+Slammylou Harris,,Maulin Monroe,,0.4302123029400972
+Slammylou Harris,,Union Jack-U-Up,,-0.9270571577018076
+Slammylou Harris,,Britches N' Hose,,0.8664342467085923
+Slammylou Harris,,Jennifer Smith,,1.068995329660598
+Slammylou Harris,,Hildabeast,,3.412775673276213
+Slammylou Harris,,Dani Doom,,0.6944141811448182
+Slammylou Harris,,Hippy-Ki-Yay,,-0.4537083255420565
+Slammylou Harris,,Electra Cal,,1.7550999172408375
+Slammylou Harris,,Sugar Magmaulya,,-0.7989394366008169
+Slammylou Harris,,Susan,,2.0908699110049747
+Slammylou Harris,,Four-Leaf Roller,,-0.1341313478252594
+Slammylou Harris,,sHedonist,,-0.973494598858356
+Slammylou Harris,,Stella Live,,-0.37317381582812087
+Slammylou Harris,,Curse Practitioner,,0.08585362182377068
+Slammylou Harris,,Ramb0 Samb0,,-0.03056034181628487
+Slammylou Harris,,Slayla,,-0.5008144388354769
+Slammylou Harris,,LeeAnn Crimes,,0.04990823186775177
+Slammylou Harris,,Rock Nasty,,-0.14126406964663735
+Slammylou Harris,,Showstopper,,0.014871632343414265
+Jennifer Smith,,Slammylou Harris,,-0.21622148913950415
+Jennifer Smith,,Lady Fury,,1.5653919925760844
+Jennifer Smith,,Maulin Monroe,,-0.11651298714057903
+Jennifer Smith,,Union Jack-U-Up,,-1.2216537303617212
+Jennifer Smith,,Britches N' Hose,,-1.470042767536383
+Jennifer Smith,,Stampeedee Gonzale...,,1.0295963091166953
+Jennifer Smith,,Hildabeast,,1.9340927355977477
+Jennifer Smith,,Dani Doom,,0.47574283321351374
+Jennifer Smith,,Electra Cal,,0.9942354480865078
+Jennifer Smith,,Hippy-Ki-Yay,,0.19474706593343194
+Jennifer Smith,,Susan,,0.9492638078263023
+Jennifer Smith,,Sugar Magmaulya,,-0.9035104787482117
+Jennifer Smith,,Four-Leaf Roller,,0.010777309835496029
+Jennifer Smith,,Stella Live,,0.2867027683659808
+Jennifer Smith,,Slayla,,-0.1709522522817831
+Jennifer Smith,,sHedonist,,-0.18514141596578151
+Jennifer Smith,,Curse Practitioner,,0.05163160057554937
+Jennifer Smith,,Ramb0 Samb0,,-0.11667574999886421
+Jennifer Smith,,LeeAnn Crimes,,-0.15603801675897572
+Jennifer Smith,,Rock Nasty,,-0.2157378118507437
+Jennifer Smith,,Showstopper,,-0.21184034586847977
+Jennifer Smith,,5 Scar Jeneral,,-0.042208436080612644
+Jennifer Smith,,E-Money,,-0.12363498343515532
+Jennifer Smith,,Luscious Loosie,,-0.030499990479217372
+Hildabeast,,Lady Fury,,0.2541166337597263
+Hildabeast,,Stampeedee Gonzale...,,0.7234579989345654
+Hildabeast,,Britches N' Hose,,-0.09960921225370196
+Hildabeast,,Slammylou Harris,,2.8996450935367073
+Hildabeast,,Maulin Monroe,,2.7962098256124395
+Hildabeast,,Jennifer Smith,,2.7084615841808137
+Hildabeast,,Dani Doom,,1.0181386150597738
+Hildabeast,,Union Jack-U-Up,,-0.5256408216842926
+Hildabeast,,Susan,,0.8239209034699402
+Hildabeast,,Electra Cal,,1.0629287571800088
+Hildabeast,,Four-Leaf Roller,,-0.5650348121643267
+Hildabeast,,Hippy-Ki-Yay,,0.6396683953613004
+Hildabeast,,Stella Live,,0.1416572295203758
+Hildabeast,,Slayla,,-0.3178055992164581
+Hildabeast,,sHedonist,,-0.10481806573696915
+Hildabeast,,Sugar Magmaulya,,0.19703908263778663
+Hildabeast,,Curse Practitioner,,0.09232881720349384
+Hildabeast,,Ramb0 Samb0,,-0.0762619122614248
+Hildabeast,,LeeAnn Crimes,,-0.1785464221571036
+Hildabeast,,Rock Nasty,,0.3059916011141681
+Hildabeast,,Showstopper,,0.17758179331115723
+Susan,,Union Jack-U-Up,,-0.06532266101192519
+Susan,,Jennifer Smith,,1.3910630978138334
+Susan,,Maulin Monroe,,-2.4650274480907934
+Susan,,Electra Cal,,-0.476414120924413
+Susan,,Britches N' Hose,,-0.48248517856688605
+Susan,,Hildabeast,,1.0237649194579128
+Susan,,Lady Fury,,-1.3921111347329032
+Susan,,Stampeedee Gonzale...,,-0.28943211646681144
+Susan,,Dani Doom,,-1.0931720569312702
+Susan,,Sugar Magmaulya,,-0.1148232494095721
+Susan,,Slammylou Harris,,2.835608796406195
+Susan,,Hippy-Ki-Yay,,-0.17300550875477752
+Susan,,Stella Live,,-0.08382989228886688
+Susan,,Slayla,,-1.2062475586954386
+Susan,,Four-Leaf Roller,,-1.0620258393441149
+Susan,,Curse Practitioner,,-0.07095551756491368
+Susan,,Ramb0 Samb0,,-0.15666472163481182
+Susan,,LeeAnn Crimes,,-0.2792040071967779
+Susan,,Rock Nasty,,0.027518383053637834
+Susan,,Showstopper,,-0.00693921099733735
+Susan,,5 Scar Jeneral,,0.012414150342052063
+Susan,,Luscious Loosie,,-0.09783996629326998
+Susan,,E-Money,,0.00224082543090616
+Slayla,,Susan,,-2.576016654101366
+Slayla,,Hildabeast,,-0.9989875934841093
+Slayla,,Dani Doom,,-1.848707381350448
+Slayla,,Jennifer Smith,,-2.32220997632036
+Slayla,,Lady Fury,,-3.0531725875397355
+Slayla,,Stampeedee Gonzale...,,-1.7653201610109448
+Slayla,,Union Jack-U-Up,,-2.765350323664319
+Slayla,,Maulin Monroe,,-2.327654746771238
+Slayla,,Sugar Magmaulya,,-0.8103627499540537
+Slayla,,Britches N' Hose,,-1.6399524989279417
+Slayla,,Stella Live,,-0.3583901575502905
+Slayla,,Four-Leaf Roller,,-1.4227558263485665
+Slayla,,sHedonist,,0.03566238304329497
+Slayla,,Curse Practitioner,,0.07335357239614027
+Slayla,,Ramb0 Samb0,,0.1882011309478368
+Slayla,,Slammylou Harris,,-1.4838458318705903
+Slayla,,LeeAnn Crimes,,-0.0917661653038603
+Slayla,,Rock Nasty,,0.19118039403855214
+Slayla,,Showstopper,,0.31011825356619516
+Slayla,,5 Scar Jeneral,,-0.09726173985201969
+Slayla,,E-Money,,-0.017753084343273565
+Slayla,,Luscious Loosie,,-0.021056284970284198
+sHedonist,,Stampeedee Gonzale...,,0.7177201489811293
+sHedonist,,Four-Leaf Roller,,0.02853034253042592
+sHedonist,,Union Jack-U-Up,,0.5270620987144895
+sHedonist,,Britches N' Hose,,3.0347362003839042
+sHedonist,,Lady Fury,,1.1765119870411025
+sHedonist,,Slayla,,1.1765119870411025
+sHedonist,,Slammylou Harris,,-0.9471061041924591
+sHedonist,,Maulin Monroe,,-0.5908864723130067
+sHedonist,,Sugar Magmaulya,,-0.7630287700012599
+sHedonist,,Stella Live,,-0.6239609657693792
+sHedonist,,Hildabeast,,0.4189460445521129
+sHedonist,,Dani Doom,,0.32846612050390317
+sHedonist,,Jennifer Smith,,-0.20042604821679316
+Curse Practitioner,,Slayla,,0.4628582518457457
+Curse Practitioner,,Hildabeast,,1.275538220927838
+Curse Practitioner,,Maulin Monroe,,-1.1029846734556192
+Curse Practitioner,,Stampeedee Gonzale...,,-0.7192974989058729
+Curse Practitioner,,Union Jack-U-Up,,-0.07777551669486671
+Curse Practitioner,,Slammylou Harris,,0.6398951843921317
+Curse Practitioner,,Four-Leaf Roller,,-0.53387597264074
+Curse Practitioner,,Susan,,0.8389866644069152
+Curse Practitioner,,Britches N' Hose,,1.5646629882237053
+Curse Practitioner,,Electra Cal,,-0.11413056766851767
+Curse Practitioner,,Dani Doom,,-0.11829882691941802
+Curse Practitioner,,Jennifer Smith,,0.2905724366893794
+Ramb0 Samb0,,Hildabeast,,0.5589148396594551
+Ramb0 Samb0,,Jennifer Smith,,0.8408552923191898
+Ramb0 Samb0,,Susan,,0.38387225184437185
+Ramb0 Samb0,,Slammylou Harris,,0.5859007002221036
+Ramb0 Samb0,,Slayla,,3.168412132581686
+Ramb0 Samb0,,Stampeedee Gonzale...,,1.299493493204499
+Ramb0 Samb0,,Britches N' Hose,,0.8068652606499803
+Ramb0 Samb0,,Maulin Monroe,,-0.051747652999834935
+Ramb0 Samb0,,Union Jack-U-Up,,0.41884402965787104
+Ramb0 Samb0,,Lady Fury,,0.1440751970557042
+Ramb0 Samb0,,Four-Leaf Roller,,0.12333337893556418
+Ramb0 Samb0,,LeeAnn Crimes,,0.17451728189217788
+Ramb0 Samb0,,Showstopper,,1.0402296276016516
+Ramb0 Samb0,,Rock Nasty,,-0.25839219509145894
+Ramb0 Samb0,,E-Money,,0.029013698096639333
+Rock Nasty,,Maulin Monroe,,-2.5879376483276406
+Rock Nasty,,Britches N' Hose,,-0.6792211542879466
+Rock Nasty,,Jennifer Smith,,-1.9976254733101848
+Rock Nasty,,Slammylou Harris,,-1.3725141258047562
+Rock Nasty,,Susan,,-1.0181721254599756
+Rock Nasty,,Union Jack-U-Up,,-3.356623535865166
+Rock Nasty,,Slayla,,-0.4577324489135608
+Rock Nasty,,Four-Leaf Roller,,-2.3874353312292826
+Rock Nasty,,Lady Fury,,-1.8769231306976875
+Rock Nasty,,LeeAnn Crimes,,0.031209344851041883
+Rock Nasty,,Showstopper,,0.48471600969183903
+Rock Nasty,,Ramb0 Samb0,,-0.19420787566160244
+Rock Nasty,,Hildabeast,,1.093589215099528
+Rock Nasty,,Stampeedee Gonzale...,,0.1744783572333315
+Showstopper,,Stampeedee Gonzale...,,0.9892882219500462
+Showstopper,,Susan,,1.1188400444825806
+Showstopper,,Lady Fury,,1.6090827281561226
+Showstopper,,Slayla,,1.186692582091392
+Showstopper,,Union Jack-U-Up,,-0.06337924500933788
+Showstopper,,Maulin Monroe,,0.22307595584517384
+Showstopper,,Rock Nasty,,-0.4665183416662867
+Showstopper,,LeeAnn Crimes,,-0.30076130517527694
+Showstopper,,Britches N' Hose,,0.3247425120881212
+Showstopper,,Jennifer Smith,,-0.19651579614996828
+Showstopper,,Ramb0 Samb0,,0.14106396869572185
+Showstopper,,Slammylou Harris,,0.43484612065062334
+Showstopper,,Hildabeast,,0.846949761058638
+Showstopper,,Four-Leaf Roller,,-0.20791148752898236
+Showstopper,,5 Scar Jeneral,,-0.17972831417568425
+Showstopper,,E-Money,,-0.5094380073894178
+Showstopper,,Luscious Loosie,,-0.23622596979533805
+???,,???,,-14.938992042440319
+???,,Four-Leaf Roller,,0.1620689655172427
+???,,Union Jack-U-Up,,0.1620689655172427
+???,,Britches N' Hose,,0.1620689655172427
+5 Scar Jeneral,,Showstopper,,-0.15276684244365338
+5 Scar Jeneral,,Susan,,0.4360868750088617
+5 Scar Jeneral,,Jennifer Smith,,0.5542717173235829
+5 Scar Jeneral,,Slayla,,-0.30274018002122177
+5 Scar Jeneral,,Four-Leaf Roller,,0.35653898970919645
+5 Scar Jeneral,,Lady Fury,,0.04373210602107652
+5 Scar Jeneral,,Maulin Monroe,,0.14751855752449053
+5 Scar Jeneral,,LeeAnn Crimes,,0.0983464483586803
+5 Scar Jeneral,,Union Jack-U-Up,,0.5542304440407574
+5 Scar Jeneral,,Britches N' Hose,,-0.20519509223658286
+5 Scar Jeneral,,E-Money,,-1.0836726778132522
+E-Money,,Jennifer Smith,,-0.3007422748092
+E-Money,,Showstopper,,0.10013406268258615
+E-Money,,Four-Leaf Roller,,0.6060292292191761
+E-Money,,Ramb0 Samb0,,0.10251860146238709
+E-Money,,Lady Fury,,0.37841716675924353
+E-Money,,LeeAnn Crimes,,0.44770066176236345
+E-Money,,Britches N' Hose,,-0.7423674333745927
+E-Money,,Union Jack-U-Up,,-0.7502355225328291
+E-Money,,Slayla,,0.6096066305340344
+E-Money,,5 Scar Jeneral,,-1.407516268381276
+E-Money,,Maulin Monroe,,-0.6713214488845201
+E-Money,,Luscious Loosie,,-0.174011203858906
+E-Money,,Susan,,0.18612151629629856
+Luscious Loosie,,Susan,,-0.7673335082138143
+Luscious Loosie,,Union Jack-U-Up,,-1.0856030871745532
+Luscious Loosie,,Four-Leaf Roller,,-2.29296760070384
+Luscious Loosie,,Jennifer Smith,,0.08786706996917681
+Luscious Loosie,,Slayla,,0.7267780447337802
+Luscious Loosie,,E-Money,,-0.5213854317036428
+Luscious Loosie,,Britches N' Hose,,-0.4595737936442339
+Luscious Loosie,,Showstopper,,-0.9502612443931412
+Luscious Loosie,,Lady Fury,,-0.08266912479974842
+Luscious Loosie,,LeeAnn Crimes,,-0.023106498898236377

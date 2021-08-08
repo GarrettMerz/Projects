@@ -1,0 +1,102 @@
+Cherry Clobber,,T-Storm,,0.40066097267452006
+Cherry Clobber,,Lil Punisher,,0.25040999776185824
+Cherry Clobber,,Kissy Kicks,,0.28603541669509636
+Cherry Clobber,,Mae Snap,,0.040069950958317696
+Cherry Clobber,,Shirley B Slammin,,-0.1935303391678222
+Cherry Clobber,,Crystal Whip (MRD),,-0.4584127487652482
+T-Storm,,Cherry Clobber,,0.3818557099254999
+T-Storm,,Lil Punisher,,1.037182600747595
+T-Storm,,Kissy Kicks,,0.3348725834482087
+T-Storm,,Mae Snap,,0.9365042563044432
+T-Storm,,Shirley B Slammin,,0.21300061558448186
+T-Storm,,Crystal Whip (MRD),,0.6657863495202054
+Lil Punisher,,Cherry Clobber,,-0.17576510712681165
+Lil Punisher,,T-Storm,,0.26018823887918247
+Lil Punisher,,Kissy Kicks,,-0.31899064420105894
+Lil Punisher,,Shirley B Slammin,,-0.2757681884125804
+Lil Punisher,,Crystal Whip (MRD),,-0.7098088804131736
+Lil Punisher,,Mae Snap,,-0.5788184085455418
+Lil Punisher,,Mother Bones,,-0.29402452056786654
+Lil Punisher,,Itsy Bitsy Fighter,,-0.005791547791481166
+Lil Punisher,,Punchy O'Guts,,-0.4122521589204295
+Lil Punisher,,Red Demption,,-0.018344477300771322
+Lil Punisher,,Spry Icicle,,-0.13086728771293443
+Kissy Kicks,,Cherry Clobber,,0.5871646171310394
+Kissy Kicks,,T-Storm,,0.5288915442910928
+Kissy Kicks,,Lil Punisher,,0.37259034887753195
+Kissy Kicks,,Shirley B Slammin,,0.8766793904865535
+Kissy Kicks,,Crystal Whip (MRD),,-0.2592278278987147
+Kissy Kicks,,Mae Snap,,-0.4609683017885606
+Mae Snap,,T-Storm,,0.15026458883137891
+Mae Snap,,Cherry Clobber,,-0.6761292169226906
+Mae Snap,,Shirley B Slammin,,-0.6920076493446974
+Mae Snap,,Crystal Whip (MRD),,-1.0649328456408789
+Mae Snap,,Lil Punisher,,-0.9129839602080269
+Mae Snap,,Kissy Kicks,,-0.5275855099984489
+Mae Snap,,Mother Bones,,-0.525121615840078
+Mae Snap,,Punchy O'Guts,,-1.0546920510303628
+Mae Snap,,Itsy Bitsy Fighter,,-0.05580615493500425
+Mae Snap,,Red Demption,,-0.24036477954351157
+Mae Snap,,Tri-Scare-Atops,,-0.08970112362635331
+Mae Snap,,Spry Icicle,,-0.20810995927253556
+Shirley B Slammin,,Mae Snap,,-1.1874335840896615
+Shirley B Slammin,,T-Storm,,-0.1903221924210256
+Shirley B Slammin,,Cherry Clobber,,-1.0096210298459212
+Shirley B Slammin,,Kissy Kicks,,-0.4890689449644833
+Shirley B Slammin,,Lil Punisher,,-0.9896057743810729
+Shirley B Slammin,,Crystal Whip (MRD),,-2.077681906326908
+Shirley B Slammin,,Mother Bones,,0.2566580093488117
+Shirley B Slammin,,Red Demption,,-0.6410961436482066
+Shirley B Slammin,,Itsy Bitsy Fighter,,0.2125767203831279
+Shirley B Slammin,,Punchy O'Guts,,-0.26202690032813636
+Shirley B Slammin,,Spry Icicle,,-0.1258635164043615
+Crystal Whip (MRD),,Lil Punisher,,-1.8462127092425726
+Crystal Whip (MRD),,Cherry Clobber,,-0.7216371798682812
+Crystal Whip (MRD),,Shirley B Slammin,,-1.9258995311618639
+Crystal Whip (MRD),,Mae Snap,,-1.5950224850287325
+Crystal Whip (MRD),,T-Storm,,0.5183566831013691
+Crystal Whip (MRD),,Kissy Kicks,,-0.8321542322238291
+Crystal Whip (MRD),,Itsy Bitsy Fighter,,-0.7383165974103248
+Crystal Whip (MRD),,Punchy O'Guts,,-1.0704302514315405
+Crystal Whip (MRD),,Mother Bones,,-0.7022464058018308
+Crystal Whip (MRD),,Spry Icicle,,-0.0801419707723401
+Mother Bones,,Shirley B Slammin,,1.0913477652074308
+Mother Bones,,Lil Punisher,,0.16071326099139904
+Mother Bones,,Mae Snap,,-0.9871459900827764
+Mother Bones,,Itsy Bitsy Fighter,,1.6061637389242696
+Mother Bones,,Punchy O'Guts,,-0.38132084094935365
+Mother Bones,,Red Demption,,-0.3926563445491943
+Mother Bones,,Crystal Whip (MRD),,-0.7468973828904031
+Mother Bones,,Spry Icicle,,-0.2703506617104905
+Red Demption,,Shirley B Slammin,,-1.1105072555536735
+Red Demption,,Itsy Bitsy Fighter,,-1.1105072555536735
+Red Demption,,Punchy O'Guts,,-1.1105072555536735
+Red Demption,,Mother Bones,,-0.2905483389660834
+Red Demption,,Mae Snap,,-0.2905483389660834
+Red Demption,,Lil Punisher,,0.047780215555434366
+Red Demption,,Tri-Scare-Atops,,-0.17195767195767164
+Itsy Bitsy Fighter,,Shirley B Slammin,,-0.15157878248394205
+Itsy Bitsy Fighter,,Red Demption,,-1.3017218321780386
+Itsy Bitsy Fighter,,Punchy O'Guts,,-0.25904370160667217
+Itsy Bitsy Fighter,,Mother Bones,,1.1325954738011146
+Itsy Bitsy Fighter,,Lil Punisher,,0.9061067876586771
+Itsy Bitsy Fighter,,Crystal Whip (MRD),,-0.3604380770216902
+Itsy Bitsy Fighter,,Mae Snap,,-0.3175555135606651
+Itsy Bitsy Fighter,,Spry Icicle,,0.2835905424042243
+Punchy O'Guts,,Shirley B Slammin,,-0.4178540242880526
+Punchy O'Guts,,Red Demption,,-1.4447781616186606
+Punchy O'Guts,,Itsy Bitsy Fighter,,-0.10966087126965995
+Punchy O'Guts,,Mother Bones,,-0.47672970882055365
+Punchy O'Guts,,Lil Punisher,,-0.38111960757216856
+Punchy O'Guts,,Mae Snap,,-2.0494803136108697
+Punchy O'Guts,,Crystal Whip (MRD),,-0.7282575614536699
+Punchy O'Guts,,Spry Icicle,,-0.3332339994890755
+Tri-Scare-Atops,,Red Demption,,-0.32015810276679835
+Tri-Scare-Atops,,Mae Snap,,-0.32015810276679835
+Spry Icicle,,Punchy O'Guts,,-1.4049751069585117
+Spry Icicle,,Lil Punisher,,-0.38670940649060725
+Spry Icicle,,Shirley B Slammin,,-1.3038739488452127
+Spry Icicle,,Mother Bones,,-0.9505697101720391
+Spry Icicle,,Crystal Whip (MRD),,-0.22964933773157037
+Spry Icicle,,Itsy Bitsy Fighter,,0.18867590324398723
+Spry Icicle,,Mae Snap,,0.0747360909637485

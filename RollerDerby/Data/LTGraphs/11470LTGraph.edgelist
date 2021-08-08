@@ -1,0 +1,114 @@
+Valdeath,,Sweetart,,0.5
+Valdeath,,Blue,,0.5
+Valdeath,,Red Hot Make 'Em D...,,0.5
+Sweetart,,Valdeath,,0.5742753623188406
+Sweetart,,Blue,,0.5742753623188406
+Sweetart,,Red Hot Make 'Em D...,,0.5742753623188406
+Sweetart,,Wombpunch,,0.39305242768353305
+Sweetart,,Machete Yeti,,0.12432141363212477
+Sweetart,,Jester,,0.25258948028366784
+Sweetart,,Smartass,,-0.04405862625517005
+Sweetart,,Crazytrain,,-0.14082569370190692
+Sweetart,,Das Bitch,,0.08813153349538293
+Sweetart,,Cornbuns,,0.5902455619461796
+Sweetart,,Harlot O'Scara,,0.3255249865443207
+Sweetart,,Ivana Czhokabich,,0.03518625403746272
+Sweetart,,Rotten Brotten,,0.2202311724185931
+Blue,,Valdeath,,0.5869565217391305
+Blue,,Sweetart,,0.5869565217391305
+Blue,,Red Hot Make 'Em D...,,0.5869565217391305
+Red Hot Make 'Em D...,,Valdeath,,0.6447368421052633
+Red Hot Make 'Em D...,,Sweetart,,0.6447368421052633
+Red Hot Make 'Em D...,,Blue,,0.6447368421052633
+Wombpunch,,Machete Yeti,,0.9728366733681173
+Wombpunch,,Jester,,-0.009819043777425342
+Wombpunch,,Sweetart,,0.6968777998852734
+Wombpunch,,Cornbuns,,1.5400542786612537
+Wombpunch,,Harlot O'Scara,,0.871593233151384
+Wombpunch,,Smartass,,0.8081736329091352
+Wombpunch,,Das Bitch,,0.38161783637975766
+Wombpunch,,Crazytrain,,0.28782965402284855
+Wombpunch,,Ivana Czhokabich,,0.5505966406010725
+Wombpunch,,Rotten Brotten,,-0.012757049917420459
+Machete Yeti,,Wombpunch,,2.0517159855395146
+Machete Yeti,,Jester,,-0.14318299181880398
+Machete Yeti,,Sweetart,,0.6241753617923866
+Machete Yeti,,Cornbuns,,1.7302831587308505
+Machete Yeti,,Harlot O'Scara,,0.603045260684093
+Machete Yeti,,Smartass,,0.8733497464475001
+Machete Yeti,,Das Bitch,,0.40655874359853855
+Machete Yeti,,Crazytrain,,9.217705513636231e-05
+Machete Yeti,,Rotten Brotten,,0.002287265971579632
+Jester,,Wombpunch,,-0.4129020321360131
+Jester,,Machete Yeti,,-0.617499733285438
+Jester,,Sweetart,,0.24980641911338053
+Jester,,Cornbuns,,0.44706263984059924
+Jester,,Harlot O'Scara,,0.6161365682997366
+Jester,,Ivana Czhokabich,,-0.2206774115621041
+Jester,,Das Bitch,,0.20459147677580006
+Jester,,Smartass,,-0.09813368173858468
+Jester,,Crazytrain,,-0.0020161291320600814
+Cornbuns,,Wombpunch,,1.8269218295561889
+Cornbuns,,Jester,,0.4187125307068586
+Cornbuns,,Machete Yeti,,0.7219116383926522
+Cornbuns,,Harlot O'Scara,,0.9872293627774845
+Cornbuns,,Smartass,,0.5764638331695328
+Cornbuns,,Sweetart,,1.5403201754951563
+Cornbuns,,Das Bitch,,-0.1551114339082117
+Cornbuns,,Crazytrain,,-0.1747340642074219
+Cornbuns,,Ivana Czhokabich,,1.191382442993506
+Smartass,,Crazytrain,,0.2553239434784547
+Smartass,,Sweetart,,0.07569153601190004
+Smartass,,Das Bitch,,0.01616085784298891
+Smartass,,Cornbuns,,0.8823529411758242
+Smartass,,Machete Yeti,,0.8823529411758242
+Smartass,,Wombpunch,,1.4440901341286878
+Smartass,,Ivana Czhokabich,,0.0808972294524513
+Smartass,,Rotten Brotten,,0.35686597602824593
+Smartass,,Harlot O'Scara,,0.5625242331910786
+Smartass,,Kami ta Getcha,,-0.025170263822583264
+Smartass,,Jester,,0.0008046016990251763
+Crazytrain,,Smartass,,0.4565667269161464
+Crazytrain,,Sweetart,,-0.13997567144004502
+Crazytrain,,Das Bitch,,0.10839095845736675
+Crazytrain,,Cornbuns,,0.21546214773800715
+Crazytrain,,Wombpunch,,0.7310263442466858
+Crazytrain,,Ivana Czhokabich,,-0.16947352878852348
+Crazytrain,,Harlot O'Scara,,0.6329135165375386
+Crazytrain,,Machete Yeti,,0.044863622967850486
+Crazytrain,,Kami ta Getcha,,0.07692061582016717
+Crazytrain,,Jester,,0.1071428571428571
+Das Bitch,,Smartass,,3.6215139504959614e-07
+Das Bitch,,Crazytrain,,-0.19253475002749718
+Das Bitch,,Sweetart,,0.2419912714477377
+Das Bitch,,Machete Yeti,,0.2793364216032542
+Das Bitch,,Harlot O'Scara,,0.24355837289480467
+Das Bitch,,Wombpunch,,0.3235525488157067
+Das Bitch,,Cornbuns,,-0.19253497938760764
+Das Bitch,,Jester,,0.27334848728804406
+Das Bitch,,Rotten Brotten,,0.002934543148575386
+Harlot O'Scara,,Wombpunch,,0.7836774567288757
+Harlot O'Scara,,Cornbuns,,0.8162756420657558
+Harlot O'Scara,,Machete Yeti,,0.2306729902704764
+Harlot O'Scara,,Das Bitch,,0.20653816372823752
+Harlot O'Scara,,Jester,,0.5650675192821283
+Harlot O'Scara,,Sweetart,,0.7880954039844662
+Harlot O'Scara,,Crazytrain,,0.3483649289308822
+Harlot O'Scara,,Smartass,,0.348183232612013
+Ivana Czhokabich,,Jester,,-0.1634432869178595
+Ivana Czhokabich,,Sweetart,,-0.3307940448894597
+Ivana Czhokabich,,Crazytrain,,-0.4471965212353089
+Ivana Czhokabich,,Smartass,,-0.18927631383284388
+Ivana Czhokabich,,Rotten Brotten,,0.256468150770081
+Ivana Czhokabich,,Cornbuns,,0.5501603953820846
+Ivana Czhokabich,,Wombpunch,,0.5373214625320617
+Ivana Czhokabich,,Kami ta Getcha,,-0.021969444112180866
+Rotten Brotten,,Smartass,,0.44999999999999996
+Rotten Brotten,,Ivana Czhokabich,,0.44999999999999996
+Rotten Brotten,,Sweetart,,0.44999999999999996
+Rotten Brotten,,Das Bitch,,7.712587941939058e-16
+Rotten Brotten,,Machete Yeti,,5.0640828623666595e-08
+Rotten Brotten,,Wombpunch,,5.0640828623666595e-08
+Kami ta Getcha,,Ivana Czhokabich,,-0.2197802197802199
+Kami ta Getcha,,Crazytrain,,-0.2197802197802199
+Kami ta Getcha,,Smartass,,-0.2197802197802199

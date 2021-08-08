@@ -1,0 +1,98 @@
+CrazieNess,,Oxidizer,,-7.178947368421046
+CrazieNess,,Rosie Rotten,,-7.178947368421046
+CrazieNess,,Hedda Flame,,-7.178947368421046
+Oxidizer,,CrazieNess,,-6.369565217391309
+Oxidizer,,Rosie Rotten,,-6.369565217391309
+Oxidizer,,Hedda Flame,,-11.202945205736619
+Oxidizer,,Roll Doll,,-15.717457811158827
+Oxidizer,,Awesome Pants,,-3.9275968992247963
+Oxidizer,,Vengeful Vegan,,-2.5600962278531565
+Oxidizer,,Iron Orchid,,-3.8948185520702188
+Oxidizer,,Laser Wolf,,-10.050897597352815
+Oxidizer,,Chain Lynx,,-4.661601639798025
+Oxidizer,,Sass Girl Rila,,-4.779473109284204
+Oxidizer,,Sinistral Warrior,,-1.8717679944095122
+Oxidizer,,Hurricane Bethany,,-1.4578313253012034
+Rosie Rotten,,CrazieNess,,-6.476190476190482
+Rosie Rotten,,Oxidizer,,-6.476190476190482
+Rosie Rotten,,Hedda Flame,,-6.476190476190482
+Hedda Flame,,CrazieNess,,-6.628947368421048
+Hedda Flame,,Oxidizer,,-14.726274262641393
+Hedda Flame,,Rosie Rotten,,-6.628947368421048
+Hedda Flame,,Awesome Pants,,-3.260464078227567
+Hedda Flame,,Roll Doll,,-9.05736841836756
+Hedda Flame,,Sass Girl Rila,,5.047118045281905
+Hedda Flame,,Laser Wolf,,-4.8147111196922365
+Hedda Flame,,Vengeful Vegan,,1.0076878792540693
+Hedda Flame,,Iron Orchid,,-5.631620373664777
+Hedda Flame,,Chain Lynx,,-0.32277704564939036
+Hedda Flame,,Hurricane Bethany,,-2.1153846153846176
+Roll Doll,,Awesome Pants,,-14.804279521291711
+Roll Doll,,Oxidizer,,-32.04470170633966
+Roll Doll,,Vengeful Vegan,,-9.548785881022724
+Roll Doll,,Chain Lynx,,-2.9051530240278005
+Roll Doll,,Iron Orchid,,-7.697925636775583
+Roll Doll,,Laser Wolf,,-18.43603099798752
+Roll Doll,,Hedda Flame,,-9.95994525648532
+Roll Doll,,Sass Girl Rila,,-5.686829654033854
+Awesome Pants,,Roll Doll,,-4.878501400560211
+Awesome Pants,,Oxidizer,,-7.193073593073594
+Awesome Pants,,Vengeful Vegan,,-1.1051820728291268
+Awesome Pants,,Chain Lynx,,6.25844741122256
+Awesome Pants,,Iron Orchid,,-7.4189033189033164
+Awesome Pants,,Laser Wolf,,3.472802197802202
+Awesome Pants,,Hedda Flame,,-0.26029319615657576
+Awesome Pants,,Sass Girl Rila,,7.195187165775405
+Vengeful Vegan,,Roll Doll,,-8.909609997845276
+Vengeful Vegan,,Awesome Pants,,-6.608625087752222
+Vengeful Vegan,,Oxidizer,,-9.405104658880397
+Vengeful Vegan,,Chain Lynx,,-8.6350156906134
+Vengeful Vegan,,Sinistral Warrior,,-5.022693531283137
+Vengeful Vegan,,Iron Orchid,,-12.583871535565645
+Vengeful Vegan,,Sass Girl Rila,,-0.1536429477605843
+Vengeful Vegan,,Hedda Flame,,2.274768293103034
+Vengeful Vegan,,Laser Wolf,,-1.2392396185499663
+Vengeful Vegan,,Hurricane Bethany,,0.0
+Chain Lynx,,Awesome Pants,,3.395828280378359
+Chain Lynx,,Roll Doll,,-1.9889378618961127
+Chain Lynx,,Vengeful Vegan,,-7.4074511973421675
+Chain Lynx,,Sinistral Warrior,,-8.783364676546741
+Chain Lynx,,Iron Orchid,,-12.253446058137135
+Chain Lynx,,Oxidizer,,-9.669036982376358
+Chain Lynx,,Sass Girl Rila,,-2.0681733843024155
+Chain Lynx,,Laser Wolf,,-1.6809414477346212
+Chain Lynx,,Hedda Flame,,0.7004504006020071
+Chain Lynx,,Hurricane Bethany,,-2.3790078644888086
+Iron Orchid,,Awesome Pants,,-8.979999999999999
+Iron Orchid,,Oxidizer,,-8.76196373286156
+Iron Orchid,,Roll Doll,,-8.589022556390974
+Iron Orchid,,Sinistral Warrior,,-0.825000000000002
+Iron Orchid,,Vengeful Vegan,,-14.3086304871599
+Iron Orchid,,Chain Lynx,,-14.26119965712037
+Iron Orchid,,Hedda Flame,,-7.380506701536447
+Iron Orchid,,Laser Wolf,,-2.309966555183949
+Laser Wolf,,Awesome Pants,,1.0421223134562814
+Laser Wolf,,Oxidizer,,-27.965991761861325
+Laser Wolf,,Roll Doll,,-28.497577529035315
+Laser Wolf,,Hedda Flame,,-7.744125784701227
+Laser Wolf,,Sass Girl Rila,,-24.200681628313227
+Laser Wolf,,Vengeful Vegan,,-2.0698245614035136
+Laser Wolf,,Chain Lynx,,-2.417650648360037
+Laser Wolf,,Iron Orchid,,-3.5933704942400553
+Sinistral Warrior,,Iron Orchid,,-2.628676470588238
+Sinistral Warrior,,Vengeful Vegan,,-12.839202786377712
+Sinistral Warrior,,Chain Lynx,,-20.72155572755417
+Sinistral Warrior,,Oxidizer,,-7.225490196078425
+Sinistral Warrior,,Sass Girl Rila,,-9.35964912280702
+Sass Girl Rila,,Roll Doll,,-11.807832478593934
+Sass Girl Rila,,Awesome Pants,,5.640134819808144
+Sass Girl Rila,,Hedda Flame,,7.277192401649142
+Sass Girl Rila,,Oxidizer,,-16.34811394913697
+Sass Girl Rila,,Chain Lynx,,-6.773553175932636
+Sass Girl Rila,,Vengeful Vegan,,-4.262783945163395
+Sass Girl Rila,,Laser Wolf,,-22.437637758660784
+Sass Girl Rila,,Sinistral Warrior,,-5.550574712643677
+Hurricane Bethany,,Hedda Flame,,-5.268421052631579
+Hurricane Bethany,,Oxidizer,,-5.268421052631579
+Hurricane Bethany,,Chain Lynx,,-5.268421052631579
+Hurricane Bethany,,Vengeful Vegan,,0.0

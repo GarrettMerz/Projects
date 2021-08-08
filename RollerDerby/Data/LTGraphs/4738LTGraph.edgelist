@@ -1,0 +1,88 @@
+T Ann T,,Jolean Machine,,-0.9836701382277891
+T Ann T,,Sandra Day O'Slaug...,,-0.6168633823280856
+T Ann T,,Tiger Beatdown (SR...,,-0.5347440780858496
+T Ann T,,T-Vira,,0.3248845632640612
+T Ann T,,Bobbie Terrorr,,-0.21047783172815368
+T Ann T,,Seven Deadly Shins,,-0.6575345087047907
+T Ann T,,Tupac ShankHer,,-0.40810502492777573
+T Ann T,,Amber Lager,,-0.29474040788794936
+T Ann T,,Khaos,,-0.0627553025964132
+T Ann T,,Poisonous Polly,,0.20019873813799188
+T Ann T,,Elle Capone,,-0.01580825670235601
+T Ann T,,Amtastic,,-0.12796166618992605
+Jolean Machine,,T Ann T,,-1.582920256954376
+Jolean Machine,,Sandra Day O'Slaug...,,-1.6311802232854857
+Jolean Machine,,Tiger Beatdown (SR...,,-1.0933232565629412
+Jolean Machine,,Bobbie Terrorr,,-0.8567600193377044
+Jolean Machine,,T-Vira,,-0.05469614501096264
+Sandra Day O'Slaug...,,T Ann T,,-0.2096841616865024
+Sandra Day O'Slaug...,,Jolean Machine,,-0.9029958295637938
+Sandra Day O'Slaug...,,Tiger Beatdown (SR...,,0.015300614947292738
+Sandra Day O'Slaug...,,T-Vira,,0.3565875713991061
+Sandra Day O'Slaug...,,Bobbie Terrorr,,-0.05055247199089902
+Sandra Day O'Slaug...,,Khaos,,0.23431640721502803
+Sandra Day O'Slaug...,,Seven Deadly Shins,,0.1187570072080688
+Sandra Day O'Slaug...,,Poisonous Polly,,0.20207547792897373
+Sandra Day O'Slaug...,,Elle Capone,,0.17984289783104335
+Sandra Day O'Slaug...,,Amber Lager,,0.1307386939598101
+Tiger Beatdown (SR...,,T Ann T,,-0.025397157646295188
+Tiger Beatdown (SR...,,Jolean Machine,,-0.4978079246421881
+Tiger Beatdown (SR...,,Sandra Day O'Slaug...,,0.10653347093713257
+Tiger Beatdown (SR...,,T-Vira,,0.4484378354737854
+Tiger Beatdown (SR...,,Bobbie Terrorr,,0.2590555655045315
+Tiger Beatdown (SR...,,Khaos,,-0.1576152866970073
+Tiger Beatdown (SR...,,Seven Deadly Shins,,-0.4834815077188517
+Tiger Beatdown (SR...,,Poisonous Polly,,0.3140658961820178
+T-Vira,,Tiger Beatdown (SR...,,0.48192982456140354
+T-Vira,,Sandra Day O'Slaug...,,0.48192982456140354
+T-Vira,,T Ann T,,0.6086562608191803
+T-Vira,,Bobbie Terrorr,,0.1110240931115257
+T-Vira,,Jolean Machine,,-0.17043478108510005
+Bobbie Terrorr,,T Ann T,,0.7629310344827589
+Bobbie Terrorr,,Sandra Day O'Slaug...,,0.7629310344827589
+Bobbie Terrorr,,Tiger Beatdown (SR...,,1.1861135016817708
+Bobbie Terrorr,,Jolean Machine,,-0.48933813981206487
+Bobbie Terrorr,,T-Vira,,4.499115874300997e-05
+Seven Deadly Shins,,T Ann T,,-1.1411473340803462
+Seven Deadly Shins,,Tupac ShankHer,,-0.7314572926372345
+Seven Deadly Shins,,Amber Lager,,-0.610282714397967
+Seven Deadly Shins,,Sandra Day O'Slaug...,,-0.03103990564314625
+Seven Deadly Shins,,Khaos,,-0.4192291814321731
+Seven Deadly Shins,,Tiger Beatdown (SR...,,-0.6462052361395073
+Seven Deadly Shins,,Poisonous Polly,,-0.026760321597412845
+Seven Deadly Shins,,Elle Capone,,-0.07122496842581688
+Tupac ShankHer,,Seven Deadly Shins,,-1.9541666666666666
+Tupac ShankHer,,T Ann T,,-1.9541666666666666
+Tupac ShankHer,,Amber Lager,,-1.9541666666666666
+Amber Lager,,Seven Deadly Shins,,-1.7537183063755653
+Amber Lager,,T Ann T,,-1.6766985718999914
+Amber Lager,,Tupac ShankHer,,-1.9916666666666667
+Amber Lager,,Elle Capone,,0.07790006874840606
+Amber Lager,,Amtastic,,0.14621432852413682
+Amber Lager,,Khaos,,-0.14211638424262174
+Amber Lager,,Poisonous Polly,,-0.026184212791168834
+Amber Lager,,Sandra Day O'Slaug...,,0.19515809399441175
+Khaos,,Sandra Day O'Slaug...,,-0.39628502432568263
+Khaos,,Tiger Beatdown (SR...,,-1.0865244842313027
+Khaos,,Seven Deadly Shins,,-1.5038763946909275
+Khaos,,T Ann T,,-0.5597644092482059
+Khaos,,Poisonous Polly,,0.2433734287721852
+Khaos,,Elle Capone,,-0.08660353216908435
+Khaos,,Amber Lager,,-0.1466386610407549
+Poisonous Polly,,Tiger Beatdown (SR...,,0.9191176469913319
+Poisonous Polly,,T Ann T,,0.9841514639831025
+Poisonous Polly,,Khaos,,1.196577934074992
+Poisonous Polly,,Elle Capone,,-0.23314570004236684
+Poisonous Polly,,Sandra Day O'Slaug...,,0.5291402180396828
+Poisonous Polly,,Seven Deadly Shins,,0.10416524290639925
+Poisonous Polly,,Amber Lager,,-0.07342189209907485
+Elle Capone,,T Ann T,,-0.05287140921084131
+Elle Capone,,Khaos,,0.055858680543461686
+Elle Capone,,Poisonous Polly,,-0.12201522578235757
+Elle Capone,,Amtastic,,-0.014585374940264403
+Elle Capone,,Amber Lager,,-0.16652073511936674
+Elle Capone,,Seven Deadly Shins,,-0.14890245100534066
+Elle Capone,,Sandra Day O'Slaug...,,0.24261083743842343
+Amtastic,,Elle Capone,,0.22499999999999998
+Amtastic,,T Ann T,,0.22499999999999998
+Amtastic,,Amber Lager,,0.22499999999999998

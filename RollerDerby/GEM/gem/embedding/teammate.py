@@ -172,27 +172,27 @@ class Teammate(StaticGraphEmbedding):
         if(self._savefilesuffix is not None):
             saveweights(
                 self._encoder,
-                'encoder_weights_' + self._savefilesuffix + '.hdf5'
+                'T_encoder_weights_' + self._savefilesuffix + '.hdf5'
             )
             saveweights(
                 self._decoder,
-                'decoder_weights_' + self._savefilesuffix + '.hdf5'
+                'T_decoder_weights_' + self._savefilesuffix + '.hdf5'
             )
             savemodel(
                 self._encoder,
-                'encoder_model_' + self._savefilesuffix + '.json'
+                'T_encoder_model_' + self._savefilesuffix + '.json'
             )
             savemodel(
                 self._decoder,
-                'decoder_model_' + self._savefilesuffix + '.json'
+                'T_decoder_model_' + self._savefilesuffix + '.json'
             )
             # Save the embedding
-            np.savetxt('embedding_' + self._savefilesuffix + '.txt', self._Y)
+            np.savetxt('T_embedding_' + self._savefilesuffix + '.txt', self._Y)
         return self._Y, (t2 - t1)
 
     def get_embedding(self, filesuffix=None):
         return self._Y if filesuffix is None else np.loadtxt(
-            'embedding_' + filesuffix + '.txt'
+            'T_embedding_' + filesuffix + '.txt'
         )
 
     def get_edge_weight(self, i, j, embed=None, filesuffix=None):
@@ -200,7 +200,7 @@ class Teammate(StaticGraphEmbedding):
             if filesuffix is None:
                 embed = self._Y
             else:
-                embed = np.loadtxt('embedding_' + filesuffix + '.txt')
+                embed = np.loadtxt('T_embedding_' + filesuffix + '.txt')
         if i == j:
             return 0
         else:
@@ -212,7 +212,7 @@ class Teammate(StaticGraphEmbedding):
             if filesuffix is None:
                 embed = self._Y
             else:
-                embed = np.loadtxt('embedding_' + filesuffix + '.txt')
+                embed = np.loadtxt('T_embedding_' + filesuffix + '.txt')
         S_hat = self.get_reconst_from_embed(embed, node_l, filesuffix)
         return graphify(S_hat)
 
@@ -227,15 +227,15 @@ class Teammate(StaticGraphEmbedding):
         else:
             try:
                 decoder = model_from_json(
-                    open('decoder_model_' + filesuffix + '.json').read()
+                    open('T_decoder_model_' + filesuffix + '.json').read()
                 )
             except:
-                print('Error reading file: {0}. Cannot load previous model'.format('decoder_model_'+filesuffix+'.json'))
+                print('Error reading file: {0}. Cannot load previous model'.format('T_decoder_model_'+filesuffix+'.json'))
                 exit()
             try:
-                decoder.load_weights('decoder_weights_' + filesuffix + '.hdf5')
+                decoder.load_weights('T_decoder_weights_' + filesuffix + '.hdf5')
             except:
-                print('Error reading file: {0}. Cannot load previous weights'.format('decoder_weights_'+filesuffix+'.hdf5'))
+                print('Error reading file: {0}. Cannot load previous weights'.format('T_decoder_weights_'+filesuffix+'.hdf5'))
                 exit()
             if node_l is not None:
                 return decoder.predict(embed, batch_size=self._n_batch)[:, node_l]
