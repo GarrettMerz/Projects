@@ -151,7 +151,7 @@ def loadGraphFromEdgeListTxt(file_name, directed=True):
         else:
             G = nx.Graph()
         for line in f:
-            edge = line.strip().split()
+            edge = line.strip().split(' ')
             if len(edge) == 3:
                 w = float(edge[2])
             else:
@@ -162,10 +162,10 @@ def loadGraphFromEdgeListTxt(file_name, directed=True):
 
 def loadEmbedding(file_name):
     with open(file_name, 'r') as f:
-        n, d = f.readline().strip().split()
+        n, d = f.readline().strip().split(' ')
         X = np.zeros((int(n), int(d)))
         for line in f:
-            emb = line.strip().split()
+            emb = line.strip().split(' ')
             emb_fl = [float(emb_i) for emb_i in emb[1:]]
             X[int(emb[0]), :] = emb_fl
     return X

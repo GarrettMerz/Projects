@@ -43,7 +43,7 @@ if __name__ == '__main__':
     G = G.to_directed()
 
 
-
+    print(G.nodes)
 
 
     models = []

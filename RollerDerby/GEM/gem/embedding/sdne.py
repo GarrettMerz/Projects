@@ -19,11 +19,11 @@ from gem.utils import graph_util, plot_util
 from gem.evaluation import visualize_embedding as viz
 from .sdne_utils import *
 
-from keras.layers import Input, Dense, Lambda, merge
-from keras.models import Model, model_from_json
-import keras.regularizers as Reg
-from keras.optimizers import SGD, Adam
-from keras import backend as KBack
+from tensorflow.keras.layers import Input, Dense, Lambda, concatenate
+from tensorflow.keras.models import Model, model_from_json
+import tensorflow.keras.regularizers as Reg
+from tensorflow.keras.optimizers import SGD, Adam
+from tensorflow.keras import backend as KBack
 
 from time import time
 
@@ -110,13 +110,13 @@ class SDNE(StaticGraphEmbedding):
         [x_hat1, y1] = self._autoencoder(x1)
         [x_hat2, y2] = self._autoencoder(x2)
         # Outputs
-        x_diff1 = merge([x_hat1, x1],
+        x_diff1 = concatenate([x_hat1, x1],
                         mode=lambda ab: ab[0] - ab[1],
                         output_shape=lambda L: L[1])
-        x_diff2 = merge([x_hat2, x2],
+        x_diff2 = concatenate([x_hat2, x2],
                         mode=lambda ab: ab[0] - ab[1],
                         output_shape=lambda L: L[1])
-        y_diff = merge([y2, y1],
+        y_diff = concatenate([y2, y1],
                        mode=lambda ab: ab[0] - ab[1],
                        output_shape=lambda L: L[1])
 

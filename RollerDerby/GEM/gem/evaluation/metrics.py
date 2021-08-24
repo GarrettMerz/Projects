@@ -24,6 +24,8 @@ def computePrecisionCurve(predicted_edge_list, true_digraph, max_k=-1):
 
 def computeMAP(predicted_edge_list, true_digraph, max_k=-1):
     node_num = len(true_digraph.nodes)
+    #print(true_digraph.nodes)
+    #print(node_num)
     node_edges = []
     for i in range(node_num):
         node_edges.append([])
