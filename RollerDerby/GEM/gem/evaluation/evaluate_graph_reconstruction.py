@@ -36,6 +36,8 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
     print(len(digraph.nodes))
     MAP = metrics.computeMAP(predicted_edge_list, digraph)
     prec_curv, _ = metrics.computePrecisionCurve(predicted_edge_list, digraph)
+    #print(prec_curv)
+
     # If weighted, compute the error in reconstructed weights of observed edges
     if is_weighted:
         digraph_adj = nx.to_numpy_matrix(digraph)

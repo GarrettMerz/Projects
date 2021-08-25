@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     # File that contains the edges. Format: source target
     # Optionally, you can add weights as third column: source target weight
-    edge_f = 'data/karate.edgelist'
+    edge_f = 'examples/data/karate.edgelist'
     # Specify whether the edges are directed
     isDirected = True
 
@@ -66,6 +66,8 @@ if __name__ == '__main__':
         t1 = time()
         # Learn embedding - accepts a networkx graph or file with edge list
         Y, t = embedding.learn_embedding(graph=G, edge_f=None, is_weighted=True, no_python=True)
+        print(Y)
+        print(Y.shape)
         print (embedding._method_name+':\n\tTraining time: %f' % (time() - t1))
         # Evaluate on graph reconstruction
         MAP, prec_curv, err, err_baseline = gr.evaluateStaticGraphReconstruction(G, embedding, Y, None)

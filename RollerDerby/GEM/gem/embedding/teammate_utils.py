@@ -25,6 +25,8 @@ def model_batch_predictor(model, X, batch_size):
             pred = np.vstack((pred, curr_pred))
         else:
             pred = curr_pred
+    print(X.shape)
+    print(pred.shape)
     return pred
 
 

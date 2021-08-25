@@ -3,6 +3,11 @@ import numpy as np
 precision_pos = [2, 10, 100, 200, 300, 500, 1000]
 
 def computePrecisionCurve(predicted_edge_list, true_digraph, max_k=-1):
+    print("pred")
+    #print(predicted_edge_list)
+    print("true")
+    #print(true_digraph.nodes)
+
     if max_k == -1:
         max_k = len(predicted_edge_list)
     else:

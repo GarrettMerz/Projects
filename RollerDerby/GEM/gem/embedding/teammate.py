@@ -139,7 +139,7 @@ class Teammate(StaticGraphEmbedding):
 
         # Model
         self._model = Model(inputs=x_in, outputs=[x_diff1, x_diff2, y_diff])
-        sgd = SGD(lr=self._xeta, decay=1e-5, momentum=0.99, nesterov=True)
+        sgd = SGD(lr=self._xeta, decay=1e-5, momentum=0.99, nesterov=True, clipnorm = 1.0)
         # adam = Adam(lr=self._xeta, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
         self._model.compile(
             optimizer=sgd,
