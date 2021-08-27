@@ -100,12 +100,12 @@ def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=-1):
     sorted_edges = sorted(predicted_edge_list, key=lambda x: x[2], reverse=True)
     k_weightsum_pred = 0
     for i in range(max_k):
-	k_weightsum_pred += sorted_edges[i][2]
+        k_weightsum_pred += sorted_edges[i][2]
 
     true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
     k_weightsum_true = 0
     for i in range(max_k):
-	k_weightsum_true += true_edges[i][2]
+        k_weightsum_true += true_edges[i][2]
 
     return k_weightsum_pred/max_k, k_weightsum_true/max_k
 
