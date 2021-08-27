@@ -25,8 +25,6 @@ def model_batch_predictor(model, X, batch_size):
             pred = np.vstack((pred, curr_pred))
         else:
             pred = curr_pred
-    print(X.shape)
-    print(pred.shape)
     return pred
 
 
@@ -101,7 +99,6 @@ def get_decoder(node_num, d, K,
 
 def get_autoencoder(encoder, decoder):
     # Input
-    print(encoder.layers[0].input_shape[0][1])
     x = Input(shape=(encoder.layers[0].input_shape[0][1],))
     # Generate embedding
     y = encoder(x)

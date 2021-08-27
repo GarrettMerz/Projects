@@ -71,7 +71,7 @@ class Teammate(StaticGraphEmbedding):
     def get_method_summary(self):
         return '%s_%d' % (self._method_name, self._d)
 
-    def learn_embedding(self, graph=None, valgraph=None, edge_f=None,
+    def learn_embedding(self, graph=None, edge_f=None,
                         is_weighted=False, no_python=False):
         if not graph and not edge_f:
             raise Exception('graph/edge_f needed')
@@ -81,13 +81,6 @@ class Teammate(StaticGraphEmbedding):
         t1 = time()
         S = (S + S.T) / 2
         self._node_num = len(graph.nodes)
-        if not valgraph and not edge_f:
-            raise Exception('graph/edge_f needed')
-        if not valgraph:
-            valgraph = graph_util.loadGraphFromEdgeListTxt(edge_f)
-        Sval = nx.to_scipy_sparse_matrix(valgraph)
-        Sval = (Sval + Sval.T) / 2
-        self._val_size = len(valgraph.edges)
 
         # Generate encoder, decoder and autoencoder
         self._num_iter = self._n_iter
@@ -154,33 +147,12 @@ class Teammate(StaticGraphEmbedding):
             loss_weights=[1, 1, self._alpha]
         )
 
-        history = self._model.fit(
-            x=batch_generator_Teammate(S, self._beta, self._n_batch, True),
+        self._model.fit_generator(
+            generator=batch_generator_Teammate(S, self._beta, self._n_batch, True),
             epochs=self._num_iter,
             steps_per_epoch=S.nonzero()[0].shape[0] // self._n_batch,
-            validation_data=batch_generator_Teammate(Sval, self._beta, self._n_batch, True),
-            validation_steps=Sval.nonzero()[0].shape[0] // self._n_batch,
             verbose=1
         )
-
-        # summarize history for accuracy
-        #plt.plot(history.history['accuracy'])
-        #plt.plot(history.history['val_accuracy'])
-        #plt.title('model accuracy')
-        #plt.ylabel('accuracy')
-        #plt.xlabel('epoch')
-        #plt.legend(['train', 'test'], loc='upper left')
-        #plt.show()
-
-        # summarize history for loss
-        plt.plot(history.history['loss'])
-        plt.plot(history.history['val_loss'])
-        plt.title('model loss')
-        plt.ylabel('loss')
-        plt.xlabel('epoch')
-        plt.legend(['train', 'test'], loc='upper left')
-        plt.show()
-
         # Get embedding for all points
         self._Y = model_batch_predictor(self._autoencoder, S, self._n_batch)
         t2 = time()

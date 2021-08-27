@@ -36,9 +36,9 @@ if __name__ == '__main__':
     # File that contains the edges. Format: source target
     # Optionally, you can add weights as third column: source target weight
     edge_tot = '../../Data/AllTeamsFullLTGraph.edgelist'
-    edge_train = '../../Data/AllTeamsLTGraphTrainStandardized.edgelist'
-    edge_test = '../../Data/AllTeamsLTGraphTestStandardized.edgelist'
-    edge_val = '../../Data/AllTeamsLTGraphValStandardized.edgelist'
+    edge_train = '../../Data/AllTeamsLTGraphTrainNormalized.edgelist'
+    edge_test = '../../Data/AllTeamsLTGraphTestNormalized.edgelist'
+    edge_val = '../../Data/AllTeamsLTGraphValNormalized.edgelist'
     # Specify whether the edges are directed
     isDirected = True
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
             node2vec(d=2, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
         )
     #alpha = 0 to have "traditional" second order loss
-    models.append(Teammate(d=2, beta=5, alpha=0, nu1=1e-6, nu2=1e-6, K=3,n_units=[500, 300], rho=0.3, n_iter=50, xeta=0.001, n_batch=7,
+    models.append(Teammate(d=2, beta=5, alpha=0, nu1=1e-6, nu2=1e-6, K=2,n_units=[500, 300], rho=0.3, n_iter=200, xeta=0.01, n_batch=50,
                     modelfile=['enc_model.json', 'dec_model.json'],
                     weightfile=['enc_weights.hdf5', 'dec_weights.hdf5']))
 
@@ -89,21 +89,21 @@ if __name__ == '__main__':
         print ('Num nodes: %d, num edges: %d' % (G.number_of_nodes(), G.number_of_edges()))
         t1 = time()
         # Learn embedding - accepts a networkx graph or file with edge list
-        Y, t = embedding.learn_embedding(graph=G_train, edge_f=None, is_weighted=True, no_python=True)
+        Y, t = embedding.learn_embedding(graph=G_train,valgraph=G_val,edge_f=None, is_weighted=True, no_python=True)
         print (embedding._method_name+':\n\tTraining time: %f' % (time() - t1))
-        print(Y)
-        print(Y.shape)
 
         # Evaluate on graph reconstruction:train
         MAP, prec_curv, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_train, embedding, Y, None, is_weighted=True, is_undirected=False)
-        print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
+        print("MSE train is ",pow(err,2)/G_train.number_of_edges())
+        #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
         viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_train, node_colors=None)
         plt.show()
         plt.clf()
 
         # Evaluate on graph reconstruction:val
         MAP, prec_curv, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_val, embedding, Y, None, is_weighted=True, is_undirected=False)
-        print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
+        print("MSE val is ",pow(err,2)/G_val.number_of_edges())
+        #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
         viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_val, node_colors=None)
         plt.show()
         plt.clf()

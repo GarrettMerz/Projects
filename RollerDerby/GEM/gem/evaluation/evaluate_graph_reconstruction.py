@@ -33,7 +33,9 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
         is_undirected=is_undirected,
         edge_pairs=eval_edge_pairs
     )
-    print(len(digraph.nodes))
+    #print(digraph.edges)
+    #print(predicted_edge_list)
+    #print(len(digraph.nodes))
     MAP = metrics.computeMAP(predicted_edge_list, digraph)
     prec_curv, _ = metrics.computePrecisionCurve(predicted_edge_list, digraph)
     #print(prec_curv)
@@ -47,6 +49,7 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
     else:
         err = None
         err_baseline = None
+
     return (MAP, prec_curv, err, err_baseline)
 
 

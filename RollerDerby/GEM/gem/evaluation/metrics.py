@@ -3,9 +3,9 @@ import numpy as np
 precision_pos = [2, 10, 100, 200, 300, 500, 1000]
 
 def computePrecisionCurve(predicted_edge_list, true_digraph, max_k=-1):
-    print("pred")
+    #print("pred")
     #print(predicted_edge_list)
-    print("true")
+    #print("true")
     #print(true_digraph.nodes)
 
     if max_k == -1:
@@ -14,7 +14,6 @@ def computePrecisionCurve(predicted_edge_list, true_digraph, max_k=-1):
         max_k = min(max_k, len(predicted_edge_list))
 
     sorted_edges = sorted(predicted_edge_list, key=lambda x: x[2], reverse=True)
-
     precision_scores = []
     delta_factors = []
     correct_edge = 0
@@ -49,6 +48,66 @@ def computeMAP(predicted_edge_list, true_digraph, max_k=-1):
         else:
             node_AP[i] = float(sum(precision_rectified) / sum(delta_factors))
     return sum(node_AP) / count
+
+def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
+    node_num = len(true_digraph.nodes)
+    #print(true_digraph.nodes)
+    #print(node_num)
+    node_edges = []
+    for i in range(node_num):
+        node_edges.append([])
+    for (st, ed, w) in predicted_edge_list:
+        node_edges[st].append((st, ed, w))
+    node_AP = [0.0] * node_num
+    count = 0
+    totalmane = 0
+    for i in range(node_num):
+        if true_digraph.out_degree(i) == 0:
+            continue
+        count += 1
+        #get rankings of other nodes connected to i in true graph
+        true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
+        true_edges_noweight =[(edge[0],edge[1]) for edge in true_edges]
+        #get rankings of other nodes connected to i in pred graph
+        sorted_pred_edges = sorted(node_edges[i], key=lambda x: x[2], reverse=True)
+        sorted_pred_edges_noweight =[(edge[0],edge[1]) for edge in sorted_pred_edges]
+
+        totalrankdiff = 0
+        #loop over true edges
+        for (edge,true_rank) in enum(true_edges):
+            rankdiff = -999
+            if edge not in sorted_pred_edges_noweight: continue
+            else:
+                pred_rank = sorted_pred_edges_noweight.index(edge)
+            rankdiff = abs(true_rank - predrank)
+            totalrankdiff += rankdiff
+        mane_i = totalrankdiff / len(true_edges)
+        totalmane += mane_i
+
+    return totalmane/count
+
+def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=-1):
+    #print("pred")
+    #print(predicted_edge_list)
+    #print("true")
+    #print(true_digraph.nodes)
+
+    if max_k == -1:
+        max_k = len(predicted_edge_list)
+    else:
+        max_k = min(max_k, len(predicted_edge_list))
+
+    sorted_edges = sorted(predicted_edge_list, key=lambda x: x[2], reverse=True)
+    k_weightsum_pred = 0
+    for i in range(max_k):
+	k_weightsum_pred += sorted_edges[i][2]
+
+    true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
+    k_weightsum_true = 0
+    for i in range(max_k):
+	k_weightsum_true += true_edges[i][2]
+
+    return k_weightsum_pred/max_k, k_weightsum_true/max_k
 
 def getMetricsHeader():
     header = 'MAP\t' + '\t'.join(['P@%d' % p for p in precision_pos])
