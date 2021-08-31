@@ -77,10 +77,10 @@ if __name__ == '__main__':
     #models.append(LocallyLinearEmbedding(d=2))
     if run_n2v:
         models.append(
-            node2vec(d=2, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
+            node2vec(d=8, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
         )
     #alpha = 0 to have "traditional" second order loss
-    models.append(Teammate(d=2, beta=5, alpha=0, nu1=1e-6, nu2=1e-6, K=2,n_units=[50, 30], rho=0.3, n_iter=200, xeta=0.01, n_batch=50,
+    models.append(Teammate(d=128, alpha=0, beta=5, nu1=0, nu2=0, K=1,n_units=[500], rho=0.99, n_iter=50, xeta=0.01, n_batch=50,
                     modelfile=['enc_model.json', 'dec_model.json'],
                     weightfile=['enc_weights.hdf5', 'dec_weights.hdf5']))
 
@@ -93,7 +93,10 @@ if __name__ == '__main__':
         print (embedding._method_name+':\n\tTraining time: %f' % (time() - t1))
 
         # Evaluate on graph reconstruction:train
-        MAP, prec_curv, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_train, embedding, Y, None, is_weighted=True, is_undirected=False)
+        MANE, avgrecpred, avgrectrue, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_train, embedding, Y, None, is_weighted=True, is_undirected=False)
+        print("MANE train is ",MANE)
+        print("avgrec 10 pred train is ",avgrecpred)
+        print("avgrec 10 true is ",avgrectrue)
         print("MSE train is ",pow(err,2)/G_train.number_of_edges())
         #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
         viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_train, node_colors=None)
@@ -101,7 +104,10 @@ if __name__ == '__main__':
         plt.clf()
 
         # Evaluate on graph reconstruction:val
-        MAP, prec_curv, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_val, embedding, Y, None, is_weighted=True, is_undirected=False)
+        MANE, avgrecpred, avgrectrue, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_val, embedding, Y, None, is_weighted=True, is_undirected=False)
+        print("MANE val is ",MANE)
+        print("avgrec 10 pred val is ",avgrecpred)
+        print("avgrec 10 true val is ",avgrectrue)
         print("MSE val is ",pow(err,2)/G_val.number_of_edges())
         #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
         viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_val, node_colors=None)

@@ -54,10 +54,22 @@ This is my attempt at performing an end-to-end ML project, including data gather
 
 In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points. Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
 
-This project is an attempt my using a Graph Convolutional Neural Nets (GCNN) autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf:
+This project is an attempt at using a  Structural Deep Neighbor Embedding graph autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf:
+
+#TweetyBERT
+
+This is an attempt at using DistilBERT to do sentiment analysis on a large corpus of labeled Twitter data. This is mostly a way for me to 
 
 
-SOME PROJECTS I HAVE NOT YET STARTED, BUT THAT WILL GO HERE:
+
+
+
+
+
+
+
+
+SOME IDEAS FOR PROJECTS I HAVE NOT YET STARTED, BUT THAT WILL LIKELY GO HERE:
 
 #Voynich
 The Voynich Manuscript is one of the most interesting problems in cryptography. Written sometime in Europe in the 1400s, it is a text written in an unknown script corresponding to no known language. 
@@ -67,6 +79,7 @@ Currently, I am investigating several questions.
 
 -Can I use clustering methods to extract the two sets of authorship? What about the different scribes?
 -Can I use topic analysis to choose the words most representative of each section?
+-What does self-attention tell us about the Voynich, at word and character level?
 -How do different characters and combinations behave statistically?
 -How accurate is the establshed "EVA" transcription?
 

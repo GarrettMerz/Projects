@@ -62,8 +62,7 @@ def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
     count = 0
     totalmane = 0
     for i in range(node_num):
-        if true_digraph.out_degree(i) == 0:
-            continue
+        if true_digraph.out_degree(i) == 0:continue
         count += 1
         #get rankings of other nodes connected to i in true graph
         true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
@@ -74,11 +73,11 @@ def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
 
         totalrankdiff = 0
         #loop over true edges
-        for (edge,true_rank) in enum(true_edges):
+        for (edge,true_rank) in enumerate(true_edges):
             rankdiff = -999
             if edge not in sorted_pred_edges_noweight: continue
-            else:
-                pred_rank = sorted_pred_edges_noweight.index(edge)
+            pred_rank = sorted_pred_edges_noweight.index(edge)
+            print(pred_rank,true_rank)
             rankdiff = abs(true_rank - predrank)
             totalrankdiff += rankdiff
         mane_i = totalrankdiff / len(true_edges)
@@ -86,7 +85,7 @@ def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
 
     return totalmane/count
 
-def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=-1):
+def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=10):
     #print("pred")
     #print(predicted_edge_list)
     #print("true")
@@ -103,9 +102,10 @@ def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=-1):
         k_weightsum_pred += sorted_edges[i][2]
 
     true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
+    print(true_edges)
     k_weightsum_true = 0
     for i in range(max_k):
-        k_weightsum_true += true_edges[i][2]
+        k_weightsum_true += true_edges[i][2].get('weight')
 
     return k_weightsum_pred/max_k, k_weightsum_true/max_k
 

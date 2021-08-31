@@ -36,8 +36,9 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
     #print(digraph.edges)
     #print(predicted_edge_list)
     #print(len(digraph.nodes))
-    MAP = metrics.computeMAP(predicted_edge_list, digraph)
-    prec_curv, _ = metrics.computePrecisionCurve(predicted_edge_list, digraph)
+    MANE = metrics.computeMANE(predicted_edge_list, digraph)
+    avgRecPred,avgRecTrue = metrics.computeAvgRecAtk(predicted_edge_list, digraph, k=10)
+    #prec_curv, _ = metrics.computePrecisionCurve(predicted_edge_list, digraph)
     #print(prec_curv)
 
     # If weighted, compute the error in reconstructed weights of observed edges
@@ -50,7 +51,7 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
         err = None
         err_baseline = None
 
-    return (MAP, prec_curv, err, err_baseline)
+    return (MANE, avgRecPred, avgRecTrue, err, err_baseline)
 
 
 def expGR(digraph, graph_embedding,

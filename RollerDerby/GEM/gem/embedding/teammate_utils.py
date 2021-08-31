@@ -1,6 +1,6 @@
 import numpy as np
 
-from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.layers import Input, Dense, Dropout
 from tensorflow.keras.models import Model, model_from_json
 import tensorflow.keras.regularizers as Reg
 
@@ -52,6 +52,10 @@ def batch_generator_Teammate(X, beta, batch_size, shuffle):
         a1 = np.append(B_i, deg_i, axis=1)
         a2 = np.append(B_j, deg_j, axis=1)
         OutData = [a1, a2, X_ij.T]
+        #print(OutData)
+        #print(OutData[0].shape)
+        #print(OutData[1].shape)
+        #print(OutData[2].shape)
         counter += 1
         yield InData, OutData
         if (counter == number_of_batches):
@@ -67,9 +71,9 @@ def get_encoder(node_num, d, K, n_units, nu1, nu2, activation_fn):
     y = [None] * (K + 1)
     y[0] = x  # y[0] is assigned the input
     for i in range(K - 1):
-        y[i + 1] = Dense(n_units[i], activation=activation_fn,
+        y[i + 1] = Dense(n_units[i], activation=activation_fn,kernel_initializer='he_uniform',
                          kernel_regularizer=Reg.l1_l2(l1=nu1, l2=nu2))(y[i])
-    y[K] = Dense(d, activation=activation_fn,
+    y[K] = Dense(d, activation=activation_fn,kernel_initializer='he_uniform',
                  kernel_regularizer=Reg.l1_l2(l1=nu1, l2=nu2))(y[K - 1])
     # Encoder model
     encoder = Model(inputs=x, outputs=y[K])
@@ -86,9 +90,9 @@ def get_decoder(node_num, d, K,
     y_hat[K] = y
     for i in range(K - 1, 0, -1):
         y_hat[i] = Dense(n_units[i - 1],
-                         activation=activation_fn,
+                         activation=activation_fn,kernel_initializer='he_uniform',
                          kernel_regularizer=Reg.l1_l2(l1=nu1, l2=nu2))(y_hat[i + 1])
-    y_hat[0] = Dense(node_num, activation=activation_fn,
+    y_hat[0] = Dense(node_num, activation='linear',kernel_initializer='he_uniform',
                      kernel_regularizer=Reg.l1_l2(l1=nu1, l2=nu2))(y_hat[1])
     # Output
     x_hat = y_hat[0]  # decoder's output is also the actual output
