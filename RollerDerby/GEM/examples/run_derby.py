@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     # File that contains the edges. Format: source target
     # Optionally, you can add weights as third column: source target weight
-    edge_tot = '../../Data/AllTeamsFullLTGraph.edgelist'
+    edge_tot = '../../Data/AllTeamsFullLTGraphNormalized.edgelist'
     edge_train = '../../Data/AllTeamsLTGraphTrainNormalized.edgelist'
     edge_test = '../../Data/AllTeamsLTGraphTestNormalized.edgelist'
     edge_val = '../../Data/AllTeamsLTGraphValNormalized.edgelist'
@@ -80,7 +80,7 @@ if __name__ == '__main__':
             node2vec(d=8, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
         )
     #alpha = 0 to have "traditional" second order loss
-    models.append(Teammate(d=128, alpha=0, beta=5, nu1=0, nu2=0, K=1,n_units=[500], rho=0.99, n_iter=50, xeta=0.01, n_batch=50,
+    models.append(Teammate(d=3, alpha=0, beta=5, nu1=0, nu2=0, K=2,n_units=[50,15], rho=0.99, n_iter=5, xeta=0.01, n_batch=50,
                     modelfile=['enc_model.json', 'dec_model.json'],
                     weightfile=['enc_weights.hdf5', 'dec_weights.hdf5']))
 

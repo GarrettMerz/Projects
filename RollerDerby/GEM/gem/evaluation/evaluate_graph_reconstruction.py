@@ -37,7 +37,7 @@ def evaluateStaticGraphReconstruction(digraph, graph_embedding,
     #print(predicted_edge_list)
     #print(len(digraph.nodes))
     MANE = metrics.computeMANE(predicted_edge_list, digraph)
-    avgRecPred,avgRecTrue = metrics.computeAvgRecAtk(predicted_edge_list, digraph, k=10)
+    avgRecPred,avgRecTrue = metrics.computeAvgRecAtk(predicted_edge_list, digraph, max_k=10)
     #prec_curv, _ = metrics.computePrecisionCurve(predicted_edge_list, digraph)
     #print(prec_curv)
 

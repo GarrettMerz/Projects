@@ -1,5 +1,5 @@
 import numpy as np
-
+import math
 precision_pos = [2, 10, 100, 200, 300, 500, 1000]
 
 def computePrecisionCurve(predicted_edge_list, true_digraph, max_k=-1):
@@ -49,10 +49,10 @@ def computeMAP(predicted_edge_list, true_digraph, max_k=-1):
             node_AP[i] = float(sum(precision_rectified) / sum(delta_factors))
     return sum(node_AP) / count
 
-def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
+def computeMANE(predicted_edge_list, true_digraph):
     node_num = len(true_digraph.nodes)
-    #print(true_digraph.nodes)
-    #print(node_num)
+    #print(true_digraph.edges(data=True))
+    #print(predicted_edge_list)
     node_edges = []
     for i in range(node_num):
         node_edges.append([])
@@ -65,22 +65,41 @@ def computeMANE(predicted_edge_list, true_digraph, max_k=-1):
         if true_digraph.out_degree(i) == 0:continue
         count += 1
         #get rankings of other nodes connected to i in true graph
-        true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
+        true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight'), reverse = True)
         true_edges_noweight =[(edge[0],edge[1]) for edge in true_edges]
+        #print(true_edges)
+        #print(true_edges_noweight)
         #get rankings of other nodes connected to i in pred graph
         sorted_pred_edges = sorted(node_edges[i], key=lambda x: x[2], reverse=True)
         sorted_pred_edges_noweight =[(edge[0],edge[1]) for edge in sorted_pred_edges]
+        #print(sorted_pred_edges)
+        #print(sorted_pred_edges_noweight)
+
+        #get rankings of other nodes connected to i in pred graph
+        sorted_pred_edges_trimmed = []
+        sorted_pred_edges_noweight_trimmed = []
+
+        #loop over pred edges, remove those not in true_edges
+        for index,edge in enumerate(sorted_pred_edges_noweight):
+            if edge in true_edges_noweight:
+                sorted_pred_edges_trimmed.append(sorted_pred_edges[index])
+                sorted_pred_edges_noweight_trimmed.append(sorted_pred_edges_noweight[index])
+
+        #print(sorted_pred_edges_trimmed)
+        #print(sorted_pred_edges_noweight_trimmed)
 
         totalrankdiff = 0
-        #loop over true edges
-        for (edge,true_rank) in enumerate(true_edges):
+        for pred_rank,edge in enumerate(sorted_pred_edges_noweight_trimmed):
+            print(edge)
             rankdiff = -999
-            if edge not in sorted_pred_edges_noweight: continue
-            pred_rank = sorted_pred_edges_noweight.index(edge)
-            print(pred_rank,true_rank)
-            rankdiff = abs(true_rank - predrank)
+            if edge not in true_edges_noweight: continue
+            true_rank = true_edges_noweight.index(edge)
+            #print(pred_rank,true_rank)
+            rankdiff = abs(true_rank - pred_rank)
             totalrankdiff += rankdiff
-        mane_i = totalrankdiff / len(true_edges)
+        #mane divided by maxmane
+        mane_i = totalrankdiff / math.floor(pow(len(true_edges),2)/2)
+        print(mane_i)
         totalmane += mane_i
 
     return totalmane/count
@@ -96,16 +115,13 @@ def computeAvgRecAtk(predicted_edge_list, true_digraph, max_k=10):
     else:
         max_k = min(max_k, len(predicted_edge_list))
 
-    sorted_edges = sorted(predicted_edge_list, key=lambda x: x[2], reverse=True)
+    sorted_pred_edges = sorted(predicted_edge_list, key=lambda x: x[2], reverse=True)
+    sorted_true_edges = sorted(true_digraph.edges(data=True), key=lambda t: t[2].get('weight'), reverse = True)
     k_weightsum_pred = 0
-    for i in range(max_k):
-        k_weightsum_pred += sorted_edges[i][2]
-
-    true_edges = sorted(true_digraph.out_edges(i,data=True), key=lambda t: t[2].get('weight', 1), reverse = True)
-    print(true_edges)
     k_weightsum_true = 0
     for i in range(max_k):
-        k_weightsum_true += true_edges[i][2].get('weight')
+        k_weightsum_pred += sorted_pred_edges[i][2]
+        k_weightsum_true += sorted_true_edges[i][2].get('weight')
 
     return k_weightsum_pred/max_k, k_weightsum_true/max_k
 
