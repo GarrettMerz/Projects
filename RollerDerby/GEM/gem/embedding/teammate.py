@@ -35,7 +35,6 @@ class Teammate(StaticGraphEmbedding):
 
         Args:
             d: dimension of the embedding
-            beta: penalty parameter in matrix B of 2nd order objective
             alpha: weighing hyperparameter for 1st order objective
             nu1: L1-reg hyperparameter
             nu2: L2-reg hyperparameter
@@ -156,10 +155,10 @@ class Teammate(StaticGraphEmbedding):
         )
 
         history = self._model.fit(
-            x=batch_generator_Teammate(S, self._beta, self._n_batch, True),
+            x=batch_generator_Teammate(S, self._n_batch, True),
             epochs=self._num_iter,
             steps_per_epoch=S.nonzero()[0].shape[0] // self._n_batch,
-            validation_data=batch_generator_Teammate(Sval, self._beta, self._n_batch, True),
+            validation_data=batch_generator_Teammate(Sval, self._n_batch, True),
             validation_steps=Sval.nonzero()[0].shape[0] // self._n_batch,
             verbose=1
         )

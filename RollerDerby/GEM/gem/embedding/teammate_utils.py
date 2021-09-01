@@ -28,7 +28,7 @@ def model_batch_predictor(model, X, batch_size):
     return pred
 
 
-def batch_generator_Teammate(X, beta, batch_size, shuffle):
+def batch_generator_Teammate(X, batch_size, shuffle):
     row_indices, col_indices = X.nonzero()
     sample_index = np.arange(row_indices.shape[0])
     number_of_batches = row_indices.shape[0] // batch_size
