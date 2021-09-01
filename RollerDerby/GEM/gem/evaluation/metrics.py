@@ -90,7 +90,7 @@ def computeMANE(predicted_edge_list, true_digraph):
 
         totalrankdiff = 0
         for pred_rank,edge in enumerate(sorted_pred_edges_noweight_trimmed):
-            print(edge)
+            #print(edge)
             rankdiff = -999
             if edge not in true_edges_noweight: continue
             true_rank = true_edges_noweight.index(edge)
@@ -98,8 +98,8 @@ def computeMANE(predicted_edge_list, true_digraph):
             rankdiff = abs(true_rank - pred_rank)
             totalrankdiff += rankdiff
         #mane divided by maxmane
-        mane_i = totalrankdiff / math.floor(pow(len(true_edges),2)/2)
-        print(mane_i)
+        mane_i = totalrankdiff / max(math.floor(pow(len(true_edges),2)/2), 1.0)
+        #print(mane_i)
         totalmane += mane_i
 
     return totalmane/count

@@ -67,29 +67,35 @@ if __name__ == '__main__':
     print(G_train.number_of_edges())
     print(G_val.number_of_edges())
     print(G_test.number_of_edges())
-    print(G_train_dummy.nodes)
+    #print(G_train_dummy.nodes)
 
     models = []
     # Load the models you want to run
-    # models.append(GraphFactorization(d=2, max_iter=50000, eta=1 * 10**-4, regu=1.0, data_set='derby'))
-    #models.append(HOPE(d=4, beta=0.01))
+    #models.append(GraphFactorization(d=2, max_iter=50000, eta=1 * 10**-4, regu=1.0))
+    models.append(HOPE(d=4, beta=0.01))
     #models.append(LaplacianEigenmaps(d=2))
     #models.append(LocallyLinearEmbedding(d=2))
     if run_n2v:
         models.append(
-            node2vec(d=8, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
+            node2vec(d=4, max_iter=1, walk_len=80, num_walks=10, con_size=10, ret_p=1, inout_p=1)
         )
     #alpha = 0 to have "traditional" second order loss
-    models.append(Teammate(d=3, alpha=0, beta=5, nu1=0, nu2=0, K=2,n_units=[50,15], rho=0.99, n_iter=5, xeta=0.01, n_batch=50,
+    models.append(Teammate(d=4, alpha=0, beta=5, nu1=0, nu2=0, K=2,n_units=[50,15], rho=0.99, n_iter=5, xeta=0.01, n_batch=50,
                     modelfile=['enc_model.json', 'dec_model.json'],
                     weightfile=['enc_weights.hdf5', 'dec_weights.hdf5']))
 
+
+
     # For each model, learn the embedding and evaluate on graph reconstruction and visualization
-    for embedding in models:
+    for num,embedding in enumerate(models):
         print ('Num nodes: %d, num edges: %d' % (G.number_of_nodes(), G.number_of_edges()))
         t1 = time()
         # Learn embedding - accepts a networkx graph or file with edge list
-        Y, t = embedding.learn_embedding(graph=G_train,valgraph=G_val,edge_f=None, is_weighted=True, no_python=True)
+
+        if num == 0:
+            Y, t = embedding.learn_embedding(graph=G_train,edge_f=None, is_weighted=True, no_python=True)
+        else:
+            Y, t = embedding.learn_embedding(graph=G_train,valgraph=G_val,edge_f=None, is_weighted=True, no_python=True)
         print (embedding._method_name+':\n\tTraining time: %f' % (time() - t1))
 
         # Evaluate on graph reconstruction:train
