@@ -13,7 +13,8 @@ https://s3.amazonaws.com/fieldguide-fgvc2019/training.tar
 https://s3.amazonaws.com/fieldguide-fgvc2019/testing.tar
 each of which contains an image of a butterfly or moth that is 600 px in its largest dimension.
 
-Currently, I have produced a (very slim) ResNet which runs using Keras/ Tensorflow 2.5 / Cuda 11 on my laptop RTX 2060 gpu. Eventually, I'd like to get this running on Google CoLab so I can explore adding more filters.
+Currently, I have produced a (very slim) ResNet which runs using Keras/ Tensorflow 2.5 / Cuda 11 on my laptop RTX 2060 gpu. Eventually, I'd like to get this running on Google CoLab so I can make it bigger (and train faster).
+Performance on this isn't stellar, but it's a functional ResNet model!
 
 #Mushrooms
 This the Kaggle "Mushroom Identification" fieldguide challenge:
@@ -54,43 +55,18 @@ This is my attempt at performing an end-to-end ML project, including data gather
 
 In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points. Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
 
-This project is an attempt at using a  Structural Deep Neighbor Embedding graph autoencoder to determine the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf:
+This project is an attempt at using a modified Structural Deep Neighbor Embedding graph autoencoder to build a recommender system that determines the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf.
+
+I'll compare the custom 'Teammate' autoencoder against both standard SDNE and the HOPE embedding model. In the future, I may return to this project to explore whether GCN or GAT models improve performance further. 
+
+The recommender system here works well- it has a low MSE, and is able to successfully predict performance on the validation set.
 
 #TweetyBERT
 
-This is an attempt at using DistilBERT to do sentiment analysis on a large corpus of labeled Twitter data. This is mostly a way for me to 
+https://www.kaggle.com/kazanova/sentiment140
 
+This is an attempt at using DistilBERT to do binary "positive vs negative" sentiment analysis on a large corpus of labeled Twitter data.
+This is mostly a way for me to get familiar with BERT models and some NLP best practices.
+Ultimately, I see an accuracy of greater than 85% on the validation set- pretrained BERT is a powerful model that runs amazingly quickly!
 
-
-
-
-
-
-
-
-
-SOME IDEAS FOR PROJECTS I HAVE NOT YET STARTED, BUT THAT WILL LIKELY GO HERE:
-
-#Voynich
-The Voynich Manuscript is one of the most interesting problems in cryptography. Written sometime in Europe in the 1400s, it is a text written in an unknown script corresponding to no known language. 
-The text is accompanied by a series of illustrations, depicting everything from unidentifiable plants to constellations.
-Zipf's Law, entropy, and frequency analysis studies have shown that the text is not random, and does in fact possess some informational content. Furthermore, analysis of handwriting and vocabulary have shown that the text was written by two scholars, each with a slightly different style (one more verbose than the other). Additionally, recent handwriting-analysis work has shown that the text was written by at least five different scribes.
-Currently, I am investigating several questions.
-
--Can I use clustering methods to extract the two sets of authorship? What about the different scribes?
--Can I use topic analysis to choose the words most representative of each section?
--What does self-attention tell us about the Voynich, at word and character level?
--How do different characters and combinations behave statistically?
--How accurate is the establshed "EVA" transcription?
-
-#In Codice Ratio
-One of the problems facing analyses of historical documents is the unavailability (and unreliability!) of digital transcriptions. Digital transcription tools often have special difficulty with context-dependent sentence parsing, especially with Latin 'sigla' or scribal abbreviations, which can mean different things based on their locations in words. Sayre's Paradox is rampant in these datasets- in order to be understood, a word must be segmented into characters, but in order for a cursive word to be correctly segmented into characters, it must be understood! This project will attempt to utilize the dataset here:  
-
-http://www.inf.uniroma3.it/db/icr/datasets.html 
-
-from the Vatican Archives as a good training set for exploring handwriting segmentation.
-
-#Cribbing Pseudo-autoencoder
-
-The Liber Primus is a text released in 2014 by internet cipherpunk collective Cicada 3301 that has yet to be decrypted (https://uncovering-cicada.fandom.com/wiki/Liber_Primus). Frequency analysis of the text indicates it is likely encoded with some kind of autokey-variant cipher. The text has spacing, which means that, if this spacing is correct, it can be "cribbed"- plaintext words can be compared against the ciphertext in order to determine the algorithm. Since it is likely that the function is nonlinear, this is my attempt to use a reinforcement learning/autoencoder type algorithm to learn the cipher map implicitly.
 

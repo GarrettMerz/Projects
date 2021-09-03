@@ -12,6 +12,7 @@ from gem.embedding.lle      import LocallyLinearEmbedding
 from gem.embedding.node2vec import node2vec
 import networkx as nx
 from gem.embedding.teammate     import Teammate
+from gem.embedding.sdne     import SDNE
 from argparse import ArgumentParser
 
 
@@ -67,7 +68,8 @@ if __name__ == '__main__':
     models = []
     # Load the models you want to run
     #models.append(GraphFactorization(d=2, max_iter=50000, eta=1 * 10**-4, regu=1.0))
-    #models.append(HOPE(d=4, beta=0.01))
+    #models.append(HOPE(d=4, beta=0.03))
+
     #models.append(LaplacianEigenmaps(d=2))
     #models.append(LocallyLinearEmbedding(d=2))
     if run_n2v:
@@ -78,12 +80,17 @@ if __name__ == '__main__':
     models.append(Teammate(d=4, alpha=1e-5, nu1=0, nu2=0, K=2,n_units=[50,15], rho=0.99, n_iter=25, xeta=0.01, n_batch=50,
                     modelfile=['enc_model_teammate.json', 'dec_model_teammate.json'],
                     weightfile=['enc_weights_teammate.hdf5', 'dec_weights_teammate.hdf5']))
+    '''
 
+    models.append(SDNE(d=4, alpha=1e-5, beta=4, nu1=1e-6, nu2=1e-6, K=2,n_units=[50,15], rho=0.99, n_iter=25, xeta=0.01, n_batch=50,
+                    modelfile=['enc_model_sdneb4.json', 'dec_model_sdneb4.json'],
+                    weightfile=['enc_weights_sdneb4.hdf5', 'dec_weights_sdneb4.hdf5']))
+
+    models.append(SDNE(d=4, alpha=1e-5, beta=5, nu1=1e-6, nu2=1e-6, K=2,n_units=[50,15], rho=0.99, n_iter=100, xeta=0.01, n_batch=50,
+                    modelfile=['enc_model_sdneb5.json', 'dec_model_sdneb5.json'],
+                    weightfile=['enc_weights_sdneb5.hdf5', 'dec_weights_sdneb5.hdf5']))
     '''
-    models.append(SDNE(d=4, alpha=1e-5, beta=5, nu1=1e-6, nu2=1e-6, K=2,n_units=[50,15], rho=0.99, n_iter=5, xeta=0.01, n_batch=50,
-                    modelfile=['enc_model_sdne.json', 'dec_model_sdne.json'],
-                    weightfile=['enc_weights_sdne.hdf5', 'dec_weights_sdne.hdf5']))
-    '''
+
 
     # For each model, learn the embedding and evaluate on graph reconstruction and visualization
     for num,embedding in enumerate(models):
@@ -91,10 +98,7 @@ if __name__ == '__main__':
         t1 = time()
         # Learn embedding - accepts a networkx graph or file with edge list
 
-        if (embedding._method_name == 'Teammate' or embedding._method_name == 'SDNE'):
-            Y, t = embedding.learn_embedding(graph=G_train,valgraph=G_val,edge_f=None, is_weighted=True, no_python=True)
-        else:
-            Y, t = embedding.learn_embedding(graph=G_train,edge_f=None, is_weighted=True, no_python=True)
+        Y, t = embedding.learn_embedding(graph=G_train,valgraph=G_val,edge_f=None, is_weighted=True, no_python=True)
 
         print (embedding._method_name+':\n\tTraining time: %f' % (time() - t1))
 
@@ -105,9 +109,9 @@ if __name__ == '__main__':
         print("avgrec 10 true is ",avgrectrue)
         print("MSE train is ",pow(err,2)/G_train.number_of_edges())
         #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
-        viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_train, node_colors=None)
-        plt.show()
-        plt.clf()
+        #viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_train, node_colors=None)
+        #plt.show()
+        #plt.clf()
 
         # Evaluate on graph reconstruction:val
         MANE, avgrecpred, avgrectrue, err, err_baseline = gr.evaluateStaticGraphReconstruction(G_val, embedding, Y, None, is_weighted=True, is_undirected=False)
@@ -116,9 +120,9 @@ if __name__ == '__main__':
         print("avgrec 10 true val is ",avgrectrue)
         print("MSE val is ",pow(err,2)/G_val.number_of_edges())
         #print(("\tMAP: {} \t precision curve: {}\n\n\n\n"+'-'*100).format(MAP,prec_curv[:5]))
-        viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_val, node_colors=None)
-        plt.show()
-        plt.clf()
+        #viz.plot_embedding2D(embedding.get_embedding(), di_graph=G_val, node_colors=None)
+        #plt.show()
+        #plt.clf()
 
 """
         # Evaluate on graph reconstruction:val

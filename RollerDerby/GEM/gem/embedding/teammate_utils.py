@@ -1,6 +1,6 @@
 import numpy as np
 
-from tensorflow.keras.layers import Input, Dense, Dropout
+from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.models import Model, model_from_json
 import tensorflow.keras.regularizers as Reg
 
@@ -52,10 +52,6 @@ def batch_generator_Teammate(X, batch_size, shuffle):
         a1 = np.append(B_i, deg_i, axis=1)
         a2 = np.append(B_j, deg_j, axis=1)
         OutData = [a1, a2, X_ij.T]
-        #print(OutData)
-        #print(OutData[0].shape)
-        #print(OutData[1].shape)
-        #print(OutData[2].shape)
         counter += 1
         yield InData, OutData
         if (counter == number_of_batches):
