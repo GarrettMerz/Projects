@@ -1,5 +1,18 @@
 # Projects
 
+#RollerDerby
+
+When I'm not coding data science projects, I enjoy announcing my friends' roller derby bouts (currently with the Kalamazoo Derby Darlins).
+This is my attempt at performing an end-to-end ML project, including data gathering, by myself, from scratch (no kaggle!).
+
+In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points. Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
+
+This project is an attempt at using a modified Structural Deep Neighbor Embedding graph autoencoder to build a recommender system that determines the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf.
+
+I'll compare the custom 'Teammate' autoencoder against both standard SDNE and the HOPE embedding model. In the future, I may return to this project to explore whether GCN or GAT models improve performance further. 
+
+The recommender system here works well- it has a low MSE, and is able to successfully predict performance on the validation set.
+
 # Some Kaggle projects to practice various ML skills.
 
 #ButterflyNet
@@ -48,18 +61,6 @@ population: abundant=a,clustered=c,numerous=n,scattered=s,several=v,solitary=y
 habitat: grasses=g,leaves=l,meadows=m,paths=p,urban=u,waste=w,woods=d
 Data is not split into train/test/validation samples in the csv; this is done so at the classifier stage.
 
-#RollerDerby
-
-When I'm not coding data science projects, I enjoy announcing my friends' roller derby bouts (currently with the Kalamazoo Derby Darlins).
-This is my attempt at performing an end-to-end ML project, including data gathering, by myself, from scratch (no kaggle!).
-
-In the sport, each team has a line of four "blockers" that attempt to hold back the opposing team's "jammer"; breaking through a "blocker" line earns the team four points. Multiple passes through the blocker line will occur over the course of one two-minute "jam", however, the "jammer" that is in the lead has the option to "call off the jam" before the alloted two minutes is up, allowing teams to swap out players and return to a fixed starting line.
-
-This project is an attempt at using a modified Structural Deep Neighbor Embedding graph autoencoder to build a recommender system that determines the optimal composition of a blocker line. It will generally follow the methodology of this paper: https://arxiv.org/pdf/1805.03285.pdf.
-
-I'll compare the custom 'Teammate' autoencoder against both standard SDNE and the HOPE embedding model. In the future, I may return to this project to explore whether GCN or GAT models improve performance further. 
-
-The recommender system here works well- it has a low MSE, and is able to successfully predict performance on the validation set.
 
 #TweetyBERT
 
@@ -68,5 +69,3 @@ https://www.kaggle.com/kazanova/sentiment140
 This is an attempt at using DistilBERT to do binary "positive vs negative" sentiment analysis on a large corpus of labeled Twitter data.
 This is mostly a way for me to get familiar with BERT models and some NLP best practices.
 Ultimately, I see an accuracy of greater than 85% on the validation set- pretrained BERT is a powerful model that runs amazingly quickly!
-
-
